@@ -10,12 +10,12 @@ from database import init_db, is_new_job, save_job, make_job_id, log_run
 from notifier import send_job_alert, send_summary, send_error_alert
 
 # Import all company scrapers
-from companies.infosys    import fetch_jobs as infosys_jobs
-from companies.cognizant  import fetch_jobs as cognizant_jobs
-from companies.accenture  import fetch_jobs as accenture_jobs
-from companies.ibm        import fetch_jobs as ibm_jobs
-from companies.capgemini  import fetch_jobs as capgemini_jobs
-from companies.internshala import fetch_jobs as internshala_jobs
+from infosys    import fetch_jobs as infosys_jobs
+from cognizant  import fetch_jobs as cognizant_jobs
+from accenture  import fetch_jobs as accenture_jobs
+from ibm        import fetch_jobs as ibm_jobs
+from capgemini  import fetch_jobs as capgemini_jobs
+from internshala import fetch_jobs as internshala_jobs
 
 
 SCRAPERS = {
