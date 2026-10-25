@@ -10,8 +10,10 @@
 #   2. Copy the token it gives you → paste below as BOT_TOKEN
 #   3. Open @userinfobot → it shows your chat ID → paste below
 # ----------------------------------------------------------
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"       # e.g. "7123456789:AAFxxxxxxxxxxxxx"
-CHAT_ID   = "YOUR_CHAT_ID_HERE"         # e.g. "987654321"
+BOT_TOKEN = "8790053401:AAHdU1mI_XQrWBoOAJuaf2TqremvPNtukCk"       # e.g. "7123456789:AAFxxxxxxxxxxxxx"
+CHAT_ID   = "5718663811"         # e.g. "987654321"
+
+
 
 # ----------------------------------------------------------
 # JOB KEYWORDS  (app alerts only when title matches these)
