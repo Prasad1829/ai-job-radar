@@ -89,7 +89,7 @@ def run_scan():
             send_error_alert(company, str(e))
 
     print(f"\n📊 Scan complete: {total_found} found, {total_new} new")
-    send_summary(total_found, total_new, errors)
+    send_summary(total_found, total_new)
 
     save_jobs_json(new_jobs_list)
     log_run(total_found, total_new)
