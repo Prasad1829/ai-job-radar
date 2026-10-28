@@ -1,1 +1,110 @@
-[]
+[
+  {
+    "title": "Data Engineer",
+    "company": "TEOCO",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/data-engineer-at-teoco-4483658817?position=10&pageNum=0&refId=t9Eb8Y%2BTywUi3526IJLn%2FQ%3D%3D&trackingId=2Vbi%2FjC4Bg%2BSA2Z7O9Rfhg%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:43.468159"
+  },
+  {
+    "title": "Data Scientist- Data Labs, Finance & Spend",
+    "company": "SAP",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/data-scientist-data-labs-finance-spend-at-sap-4474685850?position=4&pageNum=0&refId=t9Eb8Y%2BTywUi3526IJLn%2FQ%3D%3D&trackingId=K7uGElvH9tW55LPzMCw3kA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:43.466907"
+  },
+  {
+    "title": "Associate AI/ML Engineer",
+    "company": "Zaldern",
+    "location": "Hyderabad, Telangana, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/associate-ai-ml-engineer-at-zaldern-4483683306?position=7&pageNum=0&refId=YXe3rtO5kSnS%2BfLvFJAbVQ%3D%3D&trackingId=dSVL58zjNZyD6eATwb61SA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:42.473368"
+  },
+  {
+    "title": "Machine Learning Developer",
+    "company": "Data Eminence",
+    "location": "India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/machine-learning-developer-at-data-eminence-4483663079?position=5&pageNum=0&refId=YXe3rtO5kSnS%2BfLvFJAbVQ%3D%3D&trackingId=rxDTgQbsxVEvfvfsN2FjNA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:42.472933"
+  },
+  {
+    "title": "Artificial Intelligence Engineer",
+    "company": "viamagus",
+    "location": "India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-viamagus-4484426181?position=4&pageNum=0&refId=YXe3rtO5kSnS%2BfLvFJAbVQ%3D%3D&trackingId=DCVE4lXT1axNZ%2FwUJ33Saw%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:42.472724"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "OATI",
+    "location": "Mohali district, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-oati-4458501392?position=1&pageNum=0&refId=YXe3rtO5kSnS%2BfLvFJAbVQ%3D%3D&trackingId=NtDinOt3XLazRS0esQ7etg%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:42.472067"
+  },
+  {
+    "title": "Senior Member Technical Staff (MTS 3) - Machine learning",
+    "company": "Nielsen",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/senior-member-technical-staff-mts-3-machine-learning-at-nielsen-4451210421?position=8&pageNum=0&refId=oXDmxH2jFJ8tyN38ak0b2g%3D%3D&trackingId=LxwKR%2BVlV0yENRIwtrmRZQ%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:41.545885"
+  },
+  {
+    "title": "Senior AI/ ML Engineer",
+    "company": "Sandisk",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/senior-ai-ml-engineer-at-sandisk-4478378304?position=7&pageNum=0&refId=oXDmxH2jFJ8tyN38ak0b2g%3D%3D&trackingId=InHgZwuWIz8UMkjF9Qb2MQ%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:41.545662"
+  },
+  {
+    "title": "Senior Data Scientist - AI/ML",
+    "company": "ZF Group",
+    "location": "Chennai, Tamil Nadu, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-ai-ml-at-zf-group-4482503030?position=6&pageNum=0&refId=oXDmxH2jFJ8tyN38ak0b2g%3D%3D&trackingId=pA3Wc1E8n5VLXp2EkG5uNA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:41.545443"
+  },
+  {
+    "title": "RGM - Data Scientist",
+    "company": "Infosys",
+    "location": "Bengaluru East, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/rgm-data-scientist-at-infosys-4483812176?position=5&pageNum=0&refId=oXDmxH2jFJ8tyN38ak0b2g%3D%3D&trackingId=b7086Y%2FcZJb3frNVUW5FZA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:41.545220"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Recro",
+    "location": "Hyderabad, Telangana, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-at-recro-4475415639?position=3&pageNum=0&refId=oXDmxH2jFJ8tyN38ak0b2g%3D%3D&trackingId=aBN9Ki2yPFyNZc%2FCzcxiBA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:41.544760"
+  },
+  {
+    "title": "Data Scientist - Machine Learning",
+    "company": "United Airlines India Knowledge Center",
+    "location": "Gurugram, Haryana, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/data-scientist-machine-learning-at-united-airlines-india-knowledge-center-4457838253?position=1&pageNum=0&refId=oXDmxH2jFJ8tyN38ak0b2g%3D%3D&trackingId=35bCRORWr5o3pEOaB7Df9g%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-10-28T13:55:41.544230"
+  }
+]
