@@ -28,6 +28,19 @@ HEADERS = {
 
 def init_db():
     conn = sqlite3.connect(DB_PATH)
+    # Fix schema mismatch: if old table has wrong columns, recreate it
+    try:
+        conn.execute("INSERT OR IGNORE INTO seen_jobs VALUES (?,?)", ("__test__", "__test__"))
+        conn.execute("DELETE FROM seen_jobs WHERE id='__test__'")
+        conn.commit()
+    except sqlite3.OperationalError:
+        print("[DB] Schema mismatch detected — recreating seen_jobs table")
+        conn.execute("DROP TABLE IF EXISTS seen_jobs")
+        conn.execute("""CREATE TABLE seen_jobs (
+            id TEXT PRIMARY KEY, seen_at TEXT
+        )""")
+        conn.commit()
+    # Ensure table exists for fresh runs
     conn.execute("""CREATE TABLE IF NOT EXISTS seen_jobs (
         id TEXT PRIMARY KEY, seen_at TEXT
     )""")
@@ -57,69 +70,80 @@ def is_relevant(text):
 def scrape_naukri():
     print("🔍 Scanning Naukri.com...")
     jobs = []
-    searches = [
-        ("machine learning", "0"),
-        ("artificial intelligence fresher", "0"),
-        ("python machine learning", "0"),
-        ("data scientist fresher", "0"),
+    search_urls = [
+        "https://www.naukri.com/machine-learning-jobs-in-india?experience=0",
+        "https://www.naukri.com/artificial-intelligence-jobs-in-india?experience=0",
+        "https://www.naukri.com/data-scientist-jobs-in-india?experience=0",
     ]
-    seen_urls = set()
+    seen_titles = set()
 
-    for keyword, exp in searches:
+    naukri_headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Cache-Control": "max-age=0",
+    }
+
+    for page_url in search_urls:
         try:
-            url = (
-                "https://www.naukri.com/jobapi/v3/search"
-                f"?noOfResults=20&urlType=search_by_key_loc&searchType=adv"
-                f"&keyword={requests.utils.quote(keyword)}&experience={exp}"
-                f"&salary=0&city=&industry=&domain=&jobAge=3"
-                f"&src=jobsearchDesk&systemId=&serviceSection=4&qp_src=jobsearchDesk"
-            )
-            headers = {
-                **HEADERS,
-                "Referer": "https://www.naukri.com/",
-                "appid": "109",
-                "systemid": "Naukri",
-            }
-            r = requests.get(url, headers=headers, timeout=15)
+            r = requests.get(page_url, headers=naukri_headers, timeout=20)
             if r.status_code != 200:
-                print(f"  [Naukri] {keyword}: HTTP {r.status_code}")
+                print(f"  [Naukri] {page_url}: HTTP {r.status_code}")
                 continue
 
-            data = r.json()
-            job_list = data.get("jobDetails", [])
+            soup = BeautifulSoup(r.text, "lxml")
 
-            for j in job_list:
-                title = j.get("title", "")
-                company = j.get("companyName", "")
-                location = ", ".join(j.get("placeholders", [{}])[0].get("label", "").split(",")[:2]) if j.get("placeholders") else "India"
-                exp_range = ""
-                for ph in j.get("placeholders", []):
-                    if ph.get("type") == "experience":
-                        exp_range = ph.get("label", "")
-                        break
-                jid = j.get("jobId", "")
-                job_url = f"https://www.naukri.com/job-listings-{jid}" if jid else "https://www.naukri.com/"
+            # Naukri job cards
+            cards = (soup.select("article.jobTuple") or
+                     soup.select(".cust-job-tuple") or
+                     soup.select("[class*='srp-jobtuple']") or
+                     soup.select(".job-container"))
 
-                if job_url in seen_urls:
+            for card in cards[:15]:
+                title_el = (card.select_one("a.title") or
+                            card.select_one(".title") or
+                            card.select_one("h2 a") or
+                            card.select_one("a[class*='title']"))
+                if not title_el:
                     continue
-                seen_urls.add(job_url)
+                title = title_el.get_text(strip=True)
 
-                full_text = f"{title} {company}"
-                if not is_relevant(full_text):
+                comp_el = (card.select_one(".comp-name") or
+                           card.select_one(".companyInfo") or
+                           card.select_one("[class*='comp']"))
+                company = comp_el.get_text(strip=True) if comp_el else "Company"
+
+                loc_el = (card.select_one(".locWdth") or
+                          card.select_one(".location") or
+                          card.select_one("[class*='loc']"))
+                location = loc_el.get_text(strip=True) if loc_el else "India"
+
+                href = title_el.get("href", "")
+                job_url = href if href.startswith("http") else f"https://www.naukri.com{href}"
+
+                key = f"{title}{company}"
+                if key in seen_titles:
+                    continue
+                seen_titles.add(key)
+
+                if not is_relevant(f"{title} {company}"):
                     continue
 
                 jobs.append({
                     "title": title,
                     "company": company,
-                    "location": location or "India",
-                    "experience": exp_range or "0-1 Years",
+                    "location": location,
+                    "experience": "0-1 Years",
                     "url": job_url,
                     "source": "Naukri",
                     "found_at": datetime.utcnow().isoformat(),
                 })
 
         except Exception as e:
-            print(f"  [Naukri] Error for '{keyword}': {e}")
+            print(f"  [Naukri] Error: {e}")
 
     print(f"  [Naukri] Found {len(jobs)} relevant jobs")
     return jobs
