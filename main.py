@@ -323,7 +323,9 @@ def save_jobs_json(new_jobs):
     if os.path.exists(JOBS_JSON):
         try:
             with open(JOBS_JSON) as f:
-                existing = json.load(f)
+                data = json.load(f)
+                # Ensure it's a list of dicts (not corrupt/old format)
+                existing = [j for j in data if isinstance(j, dict)]
         except Exception:
             existing = []
 
@@ -420,10 +422,23 @@ def main():
             mark_seen(conn, jid)
             total_new += 1
             new_jobs.append(job)
-            send_job_alert(job)
 
     print(f"\n📊 Scan complete: {total_found} found, {total_new} new")
     save_jobs_json(new_jobs)
+
+    # Send grouped alert for new jobs (max 10 per message to avoid Telegram limits)
+    if new_jobs:
+        lines = [f"🚀 <b>{total_new} New AI/ML Jobs Found!</b>\n"]
+        for j in new_jobs[:10]:
+            lines.append(
+                f"📌 <b>{j['title']}</b>\n"
+                f"   🏢 {j['company']} | 📍 {j.get('location','India')}\n"
+                f"   🔗 <a href='{j['url']}'>Apply</a> | 📡 {j.get('source','')}\n"
+            )
+        if len(new_jobs) > 10:
+            lines.append(f"\n...and {len(new_jobs)-10} more. Check the dashboard!")
+        send_telegram("\n".join(lines))
+
     send_summary(total_found, total_new)
     conn.close()
 
