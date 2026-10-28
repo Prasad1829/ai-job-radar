@@ -65,147 +65,134 @@ def is_relevant(text):
     t = text.lower()
     return any(kw in t for kw in KEYWORDS)
 
-# ─── Naukri scraper ───────────────────────────────────────────────────────────
+# ─── Indeed RSS scraper ───────────────────────────────────────────────────────
+# Indeed RSS works from GitHub Actions — no blocking, aggregates all Indian job sites
 
-def scrape_naukri():
-    print("🔍 Scanning Naukri.com...")
+def scrape_indeed_rss():
+    print("🔍 Scanning Indeed (RSS)...")
     jobs = []
-    search_urls = [
-        "https://www.naukri.com/machine-learning-jobs-in-india?experience=0",
-        "https://www.naukri.com/artificial-intelligence-jobs-in-india?experience=0",
-        "https://www.naukri.com/data-scientist-jobs-in-india?experience=0",
-    ]
     seen_titles = set()
 
-    naukri_headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Connection": "keep-alive",
-        "Upgrade-Insecure-Requests": "1",
-        "Cache-Control": "max-age=0",
+    searches = [
+        "machine+learning+fresher",
+        "artificial+intelligence+fresher",
+        "data+scientist+fresher",
+        "python+developer+fresher+ai",
+        "ml+engineer+fresher",
+    ]
+
+    rss_headers = {
+        "User-Agent": "Mozilla/5.0 (compatible; RSS reader)",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
     }
 
-    for page_url in search_urls:
+    for query in searches:
         try:
-            r = requests.get(page_url, headers=naukri_headers, timeout=20)
+            url = (
+                f"https://in.indeed.com/rss"
+                f"?q={query}&l=India&sort=date&fromage=7"
+            )
+            r = requests.get(url, headers=rss_headers, timeout=15)
             if r.status_code != 200:
-                print(f"  [Naukri] {page_url}: HTTP {r.status_code}")
+                print(f"  [Indeed] {query}: HTTP {r.status_code}")
                 continue
 
-            soup = BeautifulSoup(r.text, "lxml")
+            soup = BeautifulSoup(r.text, "xml")
+            items = soup.find_all("item")
 
-            # Naukri job cards
-            cards = (soup.select("article.jobTuple") or
-                     soup.select(".cust-job-tuple") or
-                     soup.select("[class*='srp-jobtuple']") or
-                     soup.select(".job-container"))
+            for item in items[:20]:
+                title = item.find("title")
+                title = title.get_text(strip=True) if title else ""
 
-            for card in cards[:15]:
-                title_el = (card.select_one("a.title") or
-                            card.select_one(".title") or
-                            card.select_one("h2 a") or
-                            card.select_one("a[class*='title']"))
-                if not title_el:
-                    continue
-                title = title_el.get_text(strip=True)
+                link = item.find("link")
+                job_url = link.get_text(strip=True) if link else "https://in.indeed.com"
 
-                comp_el = (card.select_one(".comp-name") or
-                           card.select_one(".companyInfo") or
-                           card.select_one("[class*='comp']"))
-                company = comp_el.get_text(strip=True) if comp_el else "Company"
+                # Company from source or description
+                source_tag = item.find("source")
+                company = source_tag.get_text(strip=True) if source_tag else ""
 
-                loc_el = (card.select_one(".locWdth") or
-                          card.select_one(".location") or
-                          card.select_one("[class*='loc']"))
-                location = loc_el.get_text(strip=True) if loc_el else "India"
+                desc = item.find("description")
+                desc_text = desc.get_text(strip=True) if desc else ""
 
-                href = title_el.get("href", "")
-                job_url = href if href.startswith("http") else f"https://www.naukri.com{href}"
+                # Extract company/location from description
+                location = "India"
+                if "location:" in desc_text.lower():
+                    loc_start = desc_text.lower().find("location:")
+                    loc_part = desc_text[loc_start+9:loc_start+50].split("<")[0].strip()
+                    if loc_part:
+                        location = loc_part
 
                 key = f"{title}{company}"
                 if key in seen_titles:
                     continue
                 seen_titles.add(key)
 
-                if not is_relevant(f"{title} {company}"):
+                if not is_relevant(f"{title} {desc_text[:200]}"):
                     continue
 
                 jobs.append({
                     "title": title,
-                    "company": company,
+                    "company": company or "Via Indeed",
                     "location": location,
                     "experience": "0-1 Years",
                     "url": job_url,
-                    "source": "Naukri",
+                    "source": "Indeed India",
                     "found_at": datetime.utcnow().isoformat(),
                 })
 
         except Exception as e:
-            print(f"  [Naukri] Error: {e}")
+            print(f"  [Indeed] Error for '{query}': {e}")
 
-    print(f"  [Naukri] Found {len(jobs)} relevant jobs")
+    print(f"  [Indeed] Found {len(jobs)} relevant jobs")
     return jobs
 
-# ─── Internshala scraper ──────────────────────────────────────────────────────
 
-def scrape_internshala():
-    print("🔍 Scanning Internshala...")
+# ─── LinkedIn RSS scraper ─────────────────────────────────────────────────────
+
+def scrape_linkedin_rss():
+    print("🔍 Scanning LinkedIn Jobs...")
     jobs = []
-    pages_to_check = [
-        "https://internshala.com/jobs/machine-learning-jobs/",
-        "https://internshala.com/jobs/artificial-intelligence-jobs/",
-        "https://internshala.com/jobs/python-jobs/",
-        "https://internshala.com/jobs/data-science-jobs/",
-    ]
     seen_titles = set()
 
-    for page_url in pages_to_check:
+    # LinkedIn public job search URLs (no login needed for listing)
+    searches = [
+        ("machine learning", "India"),
+        ("artificial intelligence fresher", "India"),
+        ("data scientist entry level", "India"),
+    ]
+
+    for keyword, location in searches:
         try:
-            headers = {**HEADERS, "Referer": "https://internshala.com/"}
-            r = requests.get(page_url, headers=headers, timeout=15)
+            url = (
+                "https://www.linkedin.com/jobs/search/?"
+                f"keywords={requests.utils.quote(keyword)}"
+                f"&location={requests.utils.quote(location)}"
+                f"&f_E=1&f_E=2&sortBy=DD&f_TPR=r86400"
+            )
+            r = requests.get(url, headers=HEADERS, timeout=20)
             if r.status_code != 200:
-                print(f"  [Internshala] {page_url}: HTTP {r.status_code}")
+                print(f"  [LinkedIn] HTTP {r.status_code}")
                 continue
 
             soup = BeautifulSoup(r.text, "lxml")
+            cards = (soup.select("div.base-card") or
+                     soup.select(".job-search-card") or
+                     soup.select("[class*='base-card']"))
 
-            # Each job card
-            cards = soup.select(".individual_internship") or soup.select(".internship-item") or []
-            if not cards:
-                # Try newer layout
-                cards = soup.select("[class*='job']") or []
-
-            for card in cards[:15]:
-                # Title
-                title_el = (card.select_one(".profile") or
-                            card.select_one("h3") or
-                            card.select_one(".job-title") or
-                            card.select_one("a[class*='title']"))
+            for card in cards[:10]:
+                title_el = card.select_one("h3.base-search-card__title, h3, .job-title")
                 if not title_el:
                     continue
                 title = title_el.get_text(strip=True)
 
-                # Company
-                comp_el = (card.select_one(".company_name") or
-                           card.select_one(".company-name") or
-                           card.select_one("p.company"))
-                company = comp_el.get_text(strip=True) if comp_el else "Unknown"
+                comp_el = card.select_one("h4.base-search-card__subtitle, h4, .company-name")
+                company = comp_el.get_text(strip=True) if comp_el else "Company"
 
-                # Location
-                loc_el = (card.select_one(".location_link") or
-                          card.select_one(".location") or
-                          card.select_one("[class*='location']"))
-                location = loc_el.get_text(strip=True) if loc_el else "India"
+                loc_el = card.select_one(".job-search-card__location, .location")
+                loc = loc_el.get_text(strip=True) if loc_el else "India"
 
-                # URL
-                link_el = card.select_one("a[href*='/job-detail/'], a[href*='/jobs/']")
-                if link_el:
-                    href = link_el.get("href", "")
-                    job_url = f"https://internshala.com{href}" if href.startswith("/") else href
-                else:
-                    job_url = page_url
+                link_el = card.select_one("a.base-card__full-link, a")
+                job_url = link_el.get("href", "https://linkedin.com/jobs") if link_el else "https://linkedin.com/jobs"
 
                 key = f"{title}{company}"
                 if key in seen_titles:
@@ -218,102 +205,17 @@ def scrape_internshala():
                 jobs.append({
                     "title": title,
                     "company": company,
-                    "location": location,
-                    "experience": "0-1 Years",
+                    "location": loc,
+                    "experience": "0-2 Years",
                     "url": job_url,
-                    "source": "Internshala",
+                    "source": "LinkedIn",
                     "found_at": datetime.utcnow().isoformat(),
                 })
 
         except Exception as e:
-            print(f"  [Internshala] Error for {page_url}: {e}")
+            print(f"  [LinkedIn] Error: {e}")
 
-    print(f"  [Internshala] Found {len(jobs)} relevant jobs")
-    return jobs
-
-# ─── TCS scraper (career page — usually works) ───────────────────────────────
-
-def scrape_tcs():
-    print("🔍 Scanning TCS...")
-    jobs = []
-    try:
-        url = "https://ibegin.tcs.com/iBegin/faces/pages/Application/JobPosting/JobSearch.xhtml"
-        # TCS uses a different approach — check their public API
-        api_url = "https://ibegin.tcs.com/iBegin/api/jobopening/search"
-        payload = {
-            "searchType": "keyword",
-            "keyword": "machine learning",
-            "location": "India",
-            "experience": "0",
-        }
-        r = requests.post(api_url, json=payload, headers=HEADERS, timeout=15)
-        if r.status_code == 200:
-            data = r.json()
-            for j in data.get("data", [])[:10]:
-                title = j.get("jobTitle", "") or j.get("title", "")
-                if not is_relevant(title):
-                    continue
-                jobs.append({
-                    "title": title,
-                    "company": "TCS",
-                    "location": j.get("location", "India"),
-                    "experience": "0-1 Years",
-                    "url": f"https://ibegin.tcs.com/iBegin/#{j.get('jobId', '')}",
-                    "source": "TCS Careers",
-                    "found_at": datetime.utcnow().isoformat(),
-                })
-    except Exception as e:
-        print(f"  [TCS] Error: {e}")
-
-    # Fallback: TCS NQT / NextStep portal
-    try:
-        r2 = requests.get(
-            "https://nextstep.tcs.com/campus/#/jobs",
-            headers=HEADERS, timeout=10
-        )
-    except Exception:
-        pass
-
-    print(f"  [TCS] Found {len(jobs)} relevant jobs")
-    return jobs
-
-# ─── Wipro scraper ────────────────────────────────────────────────────────────
-
-def scrape_wipro():
-    print("🔍 Scanning Wipro...")
-    jobs = []
-    try:
-        url = ("https://careers.wipro.com/careers-home/jobs?stretch=all"
-               "&stretchUnit=YEARS&location=India&country=356"
-               "&keywords=machine+learning&pagesize=25")
-        r = requests.get(url, headers=HEADERS, timeout=15)
-        if r.status_code == 200:
-            soup = BeautifulSoup(r.text, "lxml")
-            cards = soup.select(".article--result, .job-result, [data-ph-at-id]")
-            for card in cards[:15]:
-                title_el = card.select_one("h2, h3, .title, [class*='title']")
-                if not title_el:
-                    continue
-                title = title_el.get_text(strip=True)
-                if not is_relevant(title):
-                    continue
-                link_el = card.select_one("a")
-                href = link_el.get("href", "") if link_el else ""
-                job_url = f"https://careers.wipro.com{href}" if href.startswith("/") else href or "https://careers.wipro.com"
-                jobs.append({
-                    "title": title,
-                    "company": "Wipro",
-                    "location": "India",
-                    "experience": "0-2 Years",
-                    "url": job_url,
-                    "source": "Wipro Careers",
-                    "found_at": datetime.utcnow().isoformat(),
-                })
-        else:
-            print(f"  [Wipro] HTTP {r.status_code}")
-    except Exception as e:
-        print(f"  [Wipro] Error: {e}")
-    print(f"  [Wipro] Found {len(jobs)} relevant jobs")
+    print(f"  [LinkedIn] Found {len(jobs)} relevant jobs")
     return jobs
 
 # ─── Save JSON for dashboard ──────────────────────────────────────────────────
@@ -395,13 +297,15 @@ def send_summary(total_found, total_new):
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
+    # Debug: print whether secrets are loaded (never print actual values)
+    print(f"[Config] BOT_TOKEN set: {bool(BOT_TOKEN)}, CHAT_ID set: {bool(CHAT_ID)}")
+
     send_telegram("🤖 AI Job Radar scan started...")
     conn = init_db()
 
     all_scrapers = [
-        scrape_naukri,
-        scrape_internshala,
-        scrape_wipro,
+        scrape_indeed_rss,
+        scrape_linkedin_rss,
     ]
 
     all_jobs = []
