@@ -1,5 +1,113 @@
 [
   {
+    "title": "Data Scientist",
+    "company": "NielsenIQ",
+    "location": "Vadodara, Gujarat, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-nielseniq-4324950702?position=1&pageNum=0&refId=PUoXIXfJTsA1FkZCY9ax4g%3D%3D&trackingId=hTgb6c4V6CitHvTKVDHAzg%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:24.238820"
+  },
+  {
+    "title": "Specialist, Data Engineer (Python, SQL, Databricks, Pyspark, Basics of AI/LLM)",
+    "company": "Gartner",
+    "location": "Gurgaon, Haryana, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/specialist-data-engineer-python-sql-databricks-pyspark-basics-of-ai-llm-at-gartner-4487347997?position=6&pageNum=0&refId=JRQojqfEZhlXXobgFPkxtQ%3D%3D&trackingId=huB4J3FkYnfhu3XyYZLFzg%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:23.350555"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Aditya Birla Capital",
+    "location": "Maharashtra, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-aditya-birla-capital-4463357550?position=4&pageNum=0&refId=JRQojqfEZhlXXobgFPkxtQ%3D%3D&trackingId=q%2F6i2wx4MNIB6Rwu%2BkSELA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:23.350358"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Data Eminence",
+    "location": "India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-at-data-eminence-4487387259?position=1&pageNum=0&refId=JRQojqfEZhlXXobgFPkxtQ%3D%3D&trackingId=41w9SDa218MQncH0kxYGlQ%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:23.350044"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "SiteMinder",
+    "location": "Pune Division, Maharashtra, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-siteminder-4477395021?position=10&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=mMPCD7Je68AqLK6i9KH8OQ%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.492289"
+  },
+  {
+    "title": "Computer Vision AI & ML Engineer",
+    "company": "Skild AI",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/computer-vision-ai-ml-engineer-at-skild-ai-4434351862?position=9&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=oKhZR%2FvFOiEt%2BiDKZqsg0Q%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.492183"
+  },
+  {
+    "title": "Lead ML & AI Engineer",
+    "company": "HERE Technologies",
+    "location": "Mumbai Metropolitan Region",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/lead-ml-ai-engineer-at-here-technologies-4462844287?position=8&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=6Y2eJmY8mopoOzqEImS3NA%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.492074"
+  },
+  {
+    "title": "Senior Data Scientist",
+    "company": "SEI",
+    "location": "Greater Hyderabad Area",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-at-sei-4407866688?position=7&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=%2Fr0THXJrSYkDhwyVdDi8%2Fg%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.491965"
+  },
+  {
+    "title": "Lead Data Scientist",
+    "company": "Gartner",
+    "location": "Gurgaon, Haryana, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/lead-data-scientist-at-gartner-4470037417?position=6&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=YdZFFeEqRiRunXC9BD2qzw%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.491841"
+  },
+  {
+    "title": "Staff Data Scientist, Machine Learning - India",
+    "company": "JumpCloud",
+    "location": "Bengaluru East, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/staff-data-scientist-machine-learning-india-at-jumpcloud-4460443147?position=5&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=cQyx%2BnTc%2FvDCwTobYvanNw%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.491735"
+  },
+  {
+    "title": "Staff Software Engineer, Machine Learning",
+    "company": "LinkedIn",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/staff-software-engineer-machine-learning-at-linkedin-4453661653?position=4&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=dmkPR8gfyUUEYiat9FqC2w%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.491622"
+  },
+  {
+    "title": "Lead Machine Learning Engineer",
+    "company": "Bain & Company",
+    "location": "Mumbai, Maharashtra, India",
+    "experience": "0-2 Years",
+    "url": "https://in.linkedin.com/jobs/view/lead-machine-learning-engineer-at-bain-company-4484933468?position=3&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=WsfKo4ESozQwWdeam%2B3Mtg%3D%3D",
+    "source": "LinkedIn",
+    "found_at": "2026-11-07T21:36:22.491497"
+  },
+  {
     "title": "Specialist, Data Engineer (Python, SQL, Databricks, Pyspark, Basics of AI/LLM)",
     "company": "Gartner",
     "location": "Gurgaon, Haryana, India",
@@ -1690,113 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/machine-learning-scientist-at-dp-world-4383739897?position=1&pageNum=0&refId=ZdQOmGh9EQJQE00RElRWWg%3D%3D&trackingId=%2FzFKZSlJ6Cbrxo%2FRqDtisA%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-01T12:52:36.932564"
-  },
-  {
-    "title": "AI Engineer",
-    "company": "Blackcoffer",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-blackcoffer-4485141535?position=10&pageNum=0&refId=AxupGV%2B0S73W62tck3qsFQ%3D%3D&trackingId=SrEX3HU9ZrVlE%2BBrxkKTfw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:06.411602"
-  },
-  {
-    "title": "Data Scientist, Response Evaluation",
-    "company": "Uplevyl",
-    "location": "Noida, Uttar Pradesh, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-response-evaluation-at-uplevyl-4485151622?position=2&pageNum=0&refId=AxupGV%2B0S73W62tck3qsFQ%3D%3D&trackingId=5mazbz9%2FW5H6%2Bk%2BqYFXnUA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:06.409990"
-  },
-  {
-    "title": "Machine Learning Intern",
-    "company": "ThinkNovaa",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-intern-at-thinknovaa-4485183228?position=10&pageNum=0&refId=9ByMYyR24EQQQE7870qeWw%3D%3D&trackingId=333eamIONRaf2cGBVSJhZw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:05.498271"
-  },
-  {
-    "title": "EEG Experiment and Data Engineer",
-    "company": "WABO",
-    "location": "Ajmer, Rajasthan, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/eeg-experiment-and-data-engineer-at-wabo-4483946752?position=9&pageNum=0&refId=9ByMYyR24EQQQE7870qeWw%3D%3D&trackingId=IiBXHNUTHPZcvDa1k5pU4w%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:05.498070"
-  },
-  {
-    "title": "Junior Python with AI Engineer",
-    "company": "algoleap",
-    "location": "Mumbai Metropolitan Region",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/junior-python-with-ai-engineer-at-algoleap-4483925580?position=1&pageNum=0&refId=9ByMYyR24EQQQE7870qeWw%3D%3D&trackingId=q8SwmD9kt%2BRW79WwKsqpjQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:05.496437"
-  },
-  {
-    "title": "Machine Learning Engineer - Computer Vision",
-    "company": "Sutra Services Pvt Ltd",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-computer-vision-at-sutra-services-pvt-ltd-4485929237?position=10&pageNum=0&refId=cNW2gTVe2scIBU9RkrXCWw%3D%3D&trackingId=iDM7tGU5Ts3N9bkJynYIkA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:04.675554"
-  },
-  {
-    "title": "Senior AI Engineer, AI Engineering",
-    "company": "Mastercard",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-ai-engineer-ai-engineering-at-mastercard-4448405899?position=9&pageNum=0&refId=cNW2gTVe2scIBU9RkrXCWw%3D%3D&trackingId=98KbmnF3hhochCnG7Anjiw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:04.675347"
-  },
-  {
-    "title": "AI/ML Engineer",
-    "company": "Tark Innovation Private Limited",
-    "location": "Hyderabad, Telangana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-ml-engineer-at-tark-innovation-private-limited-4485921205?position=7&pageNum=0&refId=cNW2gTVe2scIBU9RkrXCWw%3D%3D&trackingId=vpX8SPlkbOcDumnkT%2FJSIQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:04.674906"
-  },
-  {
-    "title": "Senior Data Scientist (AI & NLP)",
-    "company": "Amplify Health",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-ai-nlp-at-amplify-health-4485162412?position=5&pageNum=0&refId=cNW2gTVe2scIBU9RkrXCWw%3D%3D&trackingId=WCsWvnCmRiFFhzhqREcOaQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:04.674473"
-  },
-  {
-    "title": "(IND) SENIOR, DATA SCIENTIST",
-    "company": "Walmart Global Tech India",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ind-senior-data-scientist-at-walmart-global-tech-india-4475815347?position=4&pageNum=0&refId=cNW2gTVe2scIBU9RkrXCWw%3D%3D&trackingId=6hpfzQzI0ZoFNW23RyAiqw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:04.674225"
-  },
-  {
-    "title": "Machine Learning Engineer 3",
-    "company": "Adobe",
-    "location": "Noida, Uttar Pradesh, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-3-at-adobe-4457997649?position=2&pageNum=0&refId=cNW2gTVe2scIBU9RkrXCWw%3D%3D&trackingId=y5oVYZga7ei5JeLoBGNRBA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-01T05:02:04.673780"
-  },
-  {
-    "title": "Machine Learning | Entry Level | Fresher Internship (Python, Scikit-learn, Model Evaluation)",
-    "company": "MediNex Workforce",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-entry-level-fresher-internship-python-scikit-learn-model-evaluation-at-medinex-workforce-4485126510?position=10&pageNum=0&refId=qgGozb8plYqINqTJCLVd3w%3D%3D&trackingId=ZaBpfJF1Q1VAiOeQGfYoUw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-10-31T21:11:56.744499"
   }
 ]
