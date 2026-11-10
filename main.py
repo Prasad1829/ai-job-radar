@@ -90,16 +90,57 @@ def check_experience(title, text):
     return False, ""
 
 
+def _extract_linkedin_text(html):
+    soup = BeautifulSoup(html, "lxml")
+    el = (soup.select_one("div.show-more-less-html__markup")
+          or soup.select_one("div.description__text")
+          or soup.select_one("section.description"))
+    # The "Show more" button is only a CSS cut-off; the full text is in the HTML.
+    return el.get_text(" ", strip=True) if el else ""
+
+
 def fetch_linkedin_description(job_url):
-    """Fetch the full job description from a LinkedIn job page (best effort)."""
+    """
+    Get the FULL LinkedIn description (including the part hidden behind 'Show more').
+    1) Try LinkedIn's lightweight job-detail endpoint using the job id.
+    2) Fall back to the normal job page.
+    """
+    # 1) job-detail endpoint
+    try:
+        ids = re.findall(r"(\d{8,})", job_url.split("?")[0])
+        if ids:
+            api = f"https://www.linkedin.com/jobs-guest/jobs/api/jobPosting/{ids[-1]}"
+            r = requests.get(api, headers=HEADERS, timeout=10)
+            if r.status_code == 200:
+                text = _extract_linkedin_text(r.text)
+                if text:
+                    return text
+    except Exception:
+        pass
+
+    # 2) normal job page
+    try:
+        r = requests.get(job_url, headers=HEADERS, timeout=10)
+        if r.status_code == 200:
+            return _extract_linkedin_text(r.text)
+    except Exception:
+        pass
+    return ""
+
+
+def fetch_indeed_description(job_url):
+    """
+    The Indeed RSS gives only a short snippet. Open the job page to read the
+    full description. Indeed may block this from GitHub Actions; if so we
+    return "" and the caller falls back to the RSS snippet.
+    """
     try:
         r = requests.get(job_url, headers=HEADERS, timeout=10)
         if r.status_code != 200:
             return ""
         soup = BeautifulSoup(r.text, "lxml")
-        el = (soup.select_one("div.show-more-less-html__markup")
-              or soup.select_one("div.description__text")
-              or soup.select_one("section.description"))
+        el = (soup.select_one("#jobDescriptionText")
+              or soup.select_one("div.jobsearch-JobComponent-description"))
         return el.get_text(" ", strip=True) if el else ""
     except Exception:
         return ""
@@ -211,8 +252,11 @@ def scrape_indeed_rss():
                 if not is_relevant(f"{title} {desc_text[:200]}"):
                     continue
 
-                # NEW: real experience check on the full description
-                keep, exp_label = check_experience(title, desc_text)
+                # NEW: try the full description from the job page,
+                # fall back to the RSS snippet if Indeed blocks the page
+                full_desc = fetch_indeed_description(job_url)
+                time.sleep(1)  # be polite, avoid getting blocked
+                keep, exp_label = check_experience(title, full_desc or desc_text)
                 if not keep:
                     skipped_exp += 1
                     continue
