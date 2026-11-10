@@ -1,5 +1,7 @@
 import os
+import re
 import json
+import time
 import sqlite3
 import hashlib
 import requests
@@ -23,6 +25,84 @@ HEADERS = {
     "Connection": "keep-alive",
     "Referer": "https://www.google.com/",
 }
+
+# ─── EXPERIENCE FILTER (NEW) ──────────────────────────────────────────────────
+# KEEP  : fresher / entry-level words, or experience that starts at 0
+#         and ends at 3 years or less (0, 0-1, 0-2, 0-3)
+# REJECT: everything else (1-3, 2+, 3+, 4-6, 5+, 0-5 ...)
+
+MAX_UPPER = 3              # highest allowed upper limit (0-3)
+ALLOW_UNSPECIFIED = False  # False = strict: skip jobs that show no experience info
+                           # True  = let through jobs that mention no experience at all
+
+FRESHER_RE = re.compile(
+    r"\b(fresher|freshers|entry[- ]level|new grad|recent graduate|"
+    r"graduate trainee|trainee|intern|internship)\b",
+    re.IGNORECASE,
+)
+
+NOT_FRESHER_RE = re.compile(
+    r"\b(no|not|non)\s+(for\s+)?(freshers?|entry[- ]level)\b",
+    re.IGNORECASE,
+)
+
+# Matches: "0 years", "0-2 yrs", "0 to 3 years", "5+ years", "2 yrs"
+EXP_RE = re.compile(
+    r"(?<![\d.])(\d+(?:\.\d+)?)\s*(?:(?:-|–|—|to)\s*(\d+(?:\.\d+)?))?\s*(\+)?\s*(?:years?|yrs?)\b",
+    re.IGNORECASE,
+)
+
+# Titles that clearly mean experienced roles
+SENIOR_TITLE_RE = re.compile(
+    r"\b(senior|sr\.?|lead|principal|staff|manager|head|architect|director|vp)\b",
+    re.IGNORECASE,
+)
+
+
+def check_experience(title, text):
+    """
+    Returns (keep: bool, label: str).
+    label is the experience text shown in the Telegram alert.
+    """
+    if SENIOR_TITLE_RE.search(title or ""):
+        return False, ""
+
+    t = f"{title} {text}".lower()
+
+    # 1) Years range starting at 0 and within the limit -> keep
+    for low, high, plus in EXP_RE.findall(t):
+        if float(low) != 0 or plus:
+            continue
+        if not high or float(high) <= MAX_UPPER:
+            return True, ("0 Years" if not high else f"0-{high} Years")
+
+    # 2) Fresher keywords -> keep
+    if FRESHER_RE.search(t) and not NOT_FRESHER_RE.search(t):
+        return True, "Fresher"
+
+    # 3) Years were mentioned but none fit 0-3 -> reject
+    if EXP_RE.search(t):
+        return False, ""
+
+    # 4) No experience info at all
+    if ALLOW_UNSPECIFIED:
+        return True, "Not specified"
+    return False, ""
+
+
+def fetch_linkedin_description(job_url):
+    """Fetch the full job description from a LinkedIn job page (best effort)."""
+    try:
+        r = requests.get(job_url, headers=HEADERS, timeout=10)
+        if r.status_code != 200:
+            return ""
+        soup = BeautifulSoup(r.text, "lxml")
+        el = (soup.select_one("div.show-more-less-html__markup")
+              or soup.select_one("div.description__text")
+              or soup.select_one("section.description"))
+        return el.get_text(" ", strip=True) if el else ""
+    except Exception:
+        return ""
 
 # ─── DB setup ────────────────────────────────────────────────────────────────
 
@@ -72,6 +152,7 @@ def scrape_indeed_rss():
     print("🔍 Scanning Indeed (RSS)...")
     jobs = []
     seen_titles = set()
+    skipped_exp = 0
 
     searches = [
         "machine+learning+fresher",
@@ -130,11 +211,17 @@ def scrape_indeed_rss():
                 if not is_relevant(f"{title} {desc_text[:200]}"):
                     continue
 
+                # NEW: real experience check on the full description
+                keep, exp_label = check_experience(title, desc_text)
+                if not keep:
+                    skipped_exp += 1
+                    continue
+
                 jobs.append({
                     "title": title,
                     "company": company or "Via Indeed",
                     "location": location,
-                    "experience": "0-1 Years",
+                    "experience": exp_label,
                     "url": job_url,
                     "source": "Indeed India",
                     "found_at": datetime.utcnow().isoformat(),
@@ -143,7 +230,7 @@ def scrape_indeed_rss():
         except Exception as e:
             print(f"  [Indeed] Error for '{query}': {e}")
 
-    print(f"  [Indeed] Found {len(jobs)} relevant jobs")
+    print(f"  [Indeed] Found {len(jobs)} relevant jobs ({skipped_exp} skipped by experience filter)")
     return jobs
 
 
@@ -153,6 +240,7 @@ def scrape_linkedin_rss():
     print("🔍 Scanning LinkedIn Jobs...")
     jobs = []
     seen_titles = set()
+    skipped_exp = 0
 
     # LinkedIn public job search URLs (no login needed for listing)
     searches = [
@@ -202,11 +290,24 @@ def scrape_linkedin_rss():
                 if not is_relevant(f"{title} {company}"):
                     continue
 
+                # NEW: quick title check first (skips Senior/Lead etc. without extra requests)
+                if SENIOR_TITLE_RE.search(title):
+                    skipped_exp += 1
+                    continue
+
+                # NEW: fetch the real description, then check experience
+                description = fetch_linkedin_description(job_url)
+                time.sleep(1)  # be polite, avoid getting blocked
+                keep, exp_label = check_experience(title, description)
+                if not keep:
+                    skipped_exp += 1
+                    continue
+
                 jobs.append({
                     "title": title,
                     "company": company,
                     "location": loc,
-                    "experience": "0-2 Years",
+                    "experience": exp_label,
                     "url": job_url,
                     "source": "LinkedIn",
                     "found_at": datetime.utcnow().isoformat(),
@@ -215,7 +316,7 @@ def scrape_linkedin_rss():
         except Exception as e:
             print(f"  [LinkedIn] Error: {e}")
 
-    print(f"  [LinkedIn] Found {len(jobs)} relevant jobs")
+    print(f"  [LinkedIn] Found {len(jobs)} relevant jobs ({skipped_exp} skipped by experience filter)")
     return jobs
 
 # ─── Save JSON for dashboard ──────────────────────────────────────────────────
@@ -336,7 +437,7 @@ def main():
         for j in new_jobs[:10]:
             lines.append(
                 f"📌 <b>{j['title']}</b>\n"
-                f"   🏢 {j['company']} | 📍 {j.get('location','India')}\n"
+                f"   🏢 {j['company']} | 📍 {j.get('location','India')} | ⏳ {j.get('experience','')}\n"
                 f"   🔗 <a href='{j['url']}'>Apply</a> | 📡 {j.get('source','')}\n"
             )
         if len(new_jobs) > 10:
