@@ -363,6 +363,113 @@ def scrape_linkedin_rss():
     print(f"  [LinkedIn] Found {len(jobs)} relevant jobs ({skipped_exp} skipped by experience filter)")
     return jobs
 
+# ─── JobSpy scraper: Indeed + Naukri + LinkedIn (NEW) ─────────────────────────
+# JobSpy returns the FULL job description for Indeed and LinkedIn, and gives
+# Naukri's real experience range (e.g. "0-2 Yrs"), so the filter works properly.
+# Install:  pip install python-jobspy   (needs Python 3.10+)
+
+JOBSPY_SITES = ["indeed", "naukri", "linkedin"]
+JOBSPY_SEARCHES = [
+    "machine learning fresher",
+    "artificial intelligence fresher",
+    "data scientist fresher",
+    "python developer fresher ai",
+    "ml engineer entry level",
+]
+SITE_LABELS = {"indeed": "Indeed India", "naukri": "Naukri", "linkedin": "LinkedIn"}
+
+
+def _s(v):
+    """Turn a DataFrame cell (maybe None/NaN) into a clean string."""
+    if v is None:
+        return ""
+    try:
+        if v != v:  # NaN check
+            return ""
+    except Exception:
+        pass
+    return str(v).strip()
+
+
+def scrape_jobspy():
+    from jobspy import scrape_jobs  # raises ImportError if not installed
+
+    print("🔍 Scanning Indeed + Naukri + LinkedIn (JobSpy)...")
+    jobs = []
+    seen = set()
+    skipped_exp = 0
+
+    for site in JOBSPY_SITES:
+        site_found = 0
+        for term in JOBSPY_SEARCHES:
+            try:
+                kwargs = dict(
+                    site_name=[site],
+                    search_term=term,
+                    location="India",
+                    results_wanted=20,
+                    hours_old=72,
+                )
+                if site == "indeed":
+                    kwargs["country_indeed"] = "India"
+                if site == "linkedin":
+                    kwargs["linkedin_fetch_description"] = True  # full text, slower
+
+                df = scrape_jobs(**kwargs)
+            except Exception as e:
+                print(f"  [{site}] '{term}': {e}")
+                continue
+
+            if df is None or len(df) == 0:
+                continue
+
+            for _, row in df.iterrows():
+                title = _s(row.get("title"))
+                company = _s(row.get("company")) or f"Via {site.title()}"
+                location = _s(row.get("location")) or "India"
+                job_url = _s(row.get("job_url")) or "https://www.google.com/search?q=" + title
+                desc = _s(row.get("description"))
+                exp_range = _s(row.get("experience_range"))  # Naukri only
+
+                if not title:
+                    continue
+                key = f"{title}{company}".lower()
+                if key in seen:
+                    continue
+                seen.add(key)
+
+                if not is_relevant(f"{title} {desc[:300]}"):
+                    continue
+
+                # Naukri gives an exact experience range -> trust it.
+                # Other sites -> read the full description.
+                if exp_range:
+                    keep, exp_label = check_experience(title, exp_range)
+                else:
+                    keep, exp_label = check_experience(title, desc)
+
+                if not keep:
+                    skipped_exp += 1
+                    continue
+
+                jobs.append({
+                    "title": title,
+                    "company": company,
+                    "location": location,
+                    "experience": exp_label,
+                    "url": job_url,
+                    "source": SITE_LABELS.get(site, site),
+                    "found_at": datetime.utcnow().isoformat(),
+                })
+                site_found += 1
+
+            time.sleep(2)  # be polite between searches
+
+        print(f"  [{site}] kept {site_found} jobs")
+
+    print(f"  [JobSpy] Total {len(jobs)} jobs kept ({skipped_exp} skipped by experience filter)")
+    return jobs
+
 # ─── Save JSON for dashboard ──────────────────────────────────────────────────
 
 def save_jobs_json(new_jobs):
@@ -448,18 +555,24 @@ def main():
     send_telegram("🤖 AI Job Radar scan started...")
     conn = init_db()
 
-    all_scrapers = [
-        scrape_indeed_rss,
-        scrape_linkedin_rss,
-    ]
-
     all_jobs = []
-    for scraper in all_scrapers:
-        try:
-            jobs = scraper()
-            all_jobs.extend(jobs)
-        except Exception as e:
-            print(f"Scraper error: {e}")
+
+    # 1) JobSpy: Indeed + Naukri + LinkedIn with full descriptions
+    try:
+        all_jobs.extend(scrape_jobspy())
+    except ImportError:
+        print("[JobSpy] not installed — add 'python-jobspy' to requirements.txt")
+    except Exception as e:
+        print(f"[JobSpy] error: {e}")
+
+    # 2) Fallback: old RSS / LinkedIn scrapers if JobSpy gave nothing
+    if not all_jobs:
+        print("JobSpy returned nothing — using fallback scrapers")
+        for scraper in [scrape_indeed_rss, scrape_linkedin_rss]:
+            try:
+                all_jobs.extend(scraper())
+            except Exception as e:
+                print(f"Scraper error: {e}")
 
     total_found = len(all_jobs)
     total_new = 0
