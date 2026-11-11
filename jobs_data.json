@@ -1,5 +1,23 @@
 [
   {
+    "title": "Machine Learning Intern (Python, Scikit-learn, Model Training, Feature Engineering)",
+    "company": "Skillzen Loop",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4488253138",
+    "source": "LinkedIn",
+    "found_at": "2026-11-11T21:48:48.264609"
+  },
+  {
+    "title": "ROBOTICS TRAINER",
+    "company": "Jrnex Technologies Pvt Ltd",
+    "location": "TN, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=c1705dcceabd3ac3",
+    "source": "Indeed India",
+    "found_at": "2026-11-11T21:47:59.619228"
+  },
+  {
     "title": "Associate Data Scientist \u2013 Modeling, Analytics & Pipelines",
     "company": "Aera Technology",
     "location": "Pune Division, Maharashtra, India",
@@ -1780,23 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/ai-solutions-analyst-ai-engineer-at-zamp-4426218663?position=4&pageNum=0&refId=IfR8Jr9ZJOSLd7xsP%2BKxyg%3D%3D&trackingId=iv1Pr%2FBWbNSQuabKCNOtgQ%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-04T19:31:43.628342"
-  },
-  {
-    "title": "Artificial Intelligence Engineer",
-    "company": "Simform",
-    "location": "Ahmedabad, Gujarat, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-simform-4482849314?position=10&pageNum=0&refId=CEZ49u7eFob0zB95Ra3prQ%3D%3D&trackingId=3yd6mlATtLjdXj7XoqTf6Q%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-04T19:31:42.742862"
-  },
-  {
-    "title": "AI Engineer (Delhi)",
-    "company": "Uplers",
-    "location": "Delhi, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-engineer-delhi-at-uplers-4487259333?position=9&pageNum=0&refId=CEZ49u7eFob0zB95Ra3prQ%3D%3D&trackingId=i2R7dkrxTCVQkRo%2FKBSjMA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-04T19:31:42.742638"
   }
 ]
