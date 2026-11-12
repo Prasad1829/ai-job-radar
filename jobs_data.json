@@ -1,5 +1,50 @@
 [
   {
+    "title": "Data Scientist - AI Ops",
+    "company": "Wolters Kluwer",
+    "location": "Pune/Pimpri-Chinchwad Area",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4489272235",
+    "source": "LinkedIn",
+    "found_at": "2026-11-12T17:27:01.357831"
+  },
+  {
+    "title": "ML Engineer",
+    "company": "App Innovation Technologies",
+    "location": "TN, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=3b954430d4016425",
+    "source": "Indeed India",
+    "found_at": "2026-11-12T17:26:16.359835"
+  },
+  {
+    "title": "Junior Core ML Engineer",
+    "company": "Modelslab",
+    "location": "GJ, India",
+    "experience": "0-1 Years",
+    "url": "https://in.indeed.com/viewjob?jk=7cc837f31ca9dfb8",
+    "source": "Indeed India",
+    "found_at": "2026-11-12T17:26:16.359696"
+  },
+  {
+    "title": "Artificial Intelligence Mentor",
+    "company": "AGS Academys",
+    "location": "Remote, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=08b97b6387dc4ee3",
+    "source": "Indeed India",
+    "found_at": "2026-11-12T17:26:16.359603"
+  },
+  {
+    "title": "Machine Learning Mentor",
+    "company": "AGS Academys",
+    "location": "Remote, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=4e969467ab0c5134",
+    "source": "Indeed India",
+    "found_at": "2026-11-12T17:26:16.359318"
+  },
+  {
     "title": "Machine Learning QA Engineer",
     "company": "Matters.AI",
     "location": "Bengaluru, Karnataka, India",
@@ -1753,50 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-at-amgen-4487249503?position=5&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=O1cPJs8m3h%2FZ4nkIOACUlg%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-05T01:22:05.320818"
-  },
-  {
-    "title": "Senior Data Scientist \u2013 AI/ML",
-    "company": "Thermo Fisher Scientific",
-    "location": "Mumbai Metropolitan Region",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-%E2%80%93-ai-ml-at-thermo-fisher-scientific-4476638035?position=3&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=1RnlvI38hWb8TnezNBD3yw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T01:22:05.320532"
-  },
-  {
-    "title": "Data Scientist (I)",
-    "company": "NCR Voyix",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-i-at-ncr-voyix-4487266274?position=1&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=m9GQQIViz3Opd21zKKbIEA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T01:22:05.320169"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "Syneos Health Commercial Solutions",
-    "location": "Gurugram, Haryana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-syneos-health-commercial-solutions-4479541233?position=7&pageNum=0&refId=eSY9PKKJ%2Fe%2BmQR0tJPLUQg%3D%3D&trackingId=MAphsAx9D2lt%2BkwjAmXIbQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-04T19:31:44.559324"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "SKaaS- Skills as a Service",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-skaas-skills-as-a-service-4487241632?position=3&pageNum=0&refId=eSY9PKKJ%2Fe%2BmQR0tJPLUQg%3D%3D&trackingId=UoYalPSKtkRxGj2dzPDNbQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-04T19:31:44.558444"
-  },
-  {
-    "title": "AI Engineer",
-    "company": "Mobility Global",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-mobility-global-4468922949?position=11&pageNum=0&refId=IfR8Jr9ZJOSLd7xsP%2BKxyg%3D%3D&trackingId=JfweZAHnbxGXeMaUm9Lb5Q%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-04T19:31:43.629654"
   }
 ]
