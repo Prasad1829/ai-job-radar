@@ -1,5 +1,23 @@
 [
   {
+    "title": "Junior Data Scientist",
+    "company": "Humanli.Ai",
+    "location": "Jaipur, Rajasthan, India",
+    "experience": "0-2 Years",
+    "url": "https://www.linkedin.com/jobs/view/4489088717",
+    "source": "LinkedIn",
+    "found_at": "2026-11-12T23:20:56.465391"
+  },
+  {
+    "title": "AI/ML Intern (Generative AI, Agentic AI & Machine Learning)",
+    "company": "Estroc",
+    "location": "DL, India",
+    "experience": "0-1 Years",
+    "url": "https://in.indeed.com/viewjob?jk=fa05d8e1bd4c8f62",
+    "source": "Indeed India",
+    "found_at": "2026-11-12T23:20:14.792766"
+  },
+  {
     "title": "Data Scientist - AI Ops",
     "company": "Wolters Kluwer",
     "location": "Pune/Pimpri-Chinchwad Area",
@@ -1780,23 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/senior-ai-engineer-at-kraft-heinz-4486358863?position=7&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=S10Fgceq65ZKEtcnuAB0Tg%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-05T01:22:05.321113"
-  },
-  {
-    "title": "Senior Engineer \u2013 AI (Artificial Intelligence)",
-    "company": "Veersa Technologies",
-    "location": "Noida, Uttar Pradesh, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-engineer-%E2%80%93-ai-artificial-intelligence-at-veersa-technologies-4486370196?position=6&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=ZlGPOkHXTk%2BEoRNORExJlA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T01:22:05.320971"
-  },
-  {
-    "title": "Machine Learning Engineer",
-    "company": "Amgen",
-    "location": "Hyderabad, Telangana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-at-amgen-4487249503?position=5&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=O1cPJs8m3h%2FZ4nkIOACUlg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T01:22:05.320818"
   }
 ]
