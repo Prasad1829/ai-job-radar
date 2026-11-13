@@ -1,5 +1,32 @@
 [
   {
+    "title": "Data Scientist",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490585101",
+    "source": "LinkedIn",
+    "found_at": "2026-11-13T05:44:14.310789"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "Ecordon Solutions",
+    "location": "Noida, Sector 63, India",
+    "experience": "0-1 Years",
+    "url": "https://www.naukri.com/job-listings-ai-engineer-ecordon-solutions-noida-sector-63-0-to-1-years-121126917063",
+    "source": "Naukri",
+    "found_at": "2026-11-13T05:42:59.625322"
+  },
+  {
+    "title": "Computer Vision & Vision-Guided Robotics Engineer",
+    "company": "ROTOX TECHNOLOGIES PVT LTD",
+    "location": "KA, India",
+    "experience": "0-2 Years",
+    "url": "https://in.indeed.com/viewjob?jk=e0ce2c41c343d04e",
+    "source": "Indeed India",
+    "found_at": "2026-11-13T05:42:47.955129"
+  },
+  {
     "title": "Junior Data Scientist",
     "company": "Humanli.Ai",
     "location": "Jaipur, Rajasthan, India",
@@ -1771,32 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-simform-4482849314?position=10&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=2uIp%2Fv1xOb2gGgRiCCpMBw%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-05T01:22:05.321528"
-  },
-  {
-    "title": "AI Engineer (Delhi)",
-    "company": "Uplers",
-    "location": "Delhi, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-engineer-delhi-at-uplers-4487259333?position=9&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=rt0%2BM41yclUNMEjQcMqOUA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T01:22:05.321396"
-  },
-  {
-    "title": "Senior Artificial Intelligence/Machine Learning Engineer",
-    "company": "Ciklum India",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-artificial-intelligence-machine-learning-engineer-at-ciklum-india-4487516151?position=8&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=cjqYBZ4UY4nWJgACHG5%2Bsg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T01:22:05.321257"
-  },
-  {
-    "title": "Senior AI Engineer",
-    "company": "Kraft Heinz",
-    "location": "Bengaluru East, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-ai-engineer-at-kraft-heinz-4486358863?position=7&pageNum=0&refId=MO%2F3hA3MyZVTqOLk2t13kQ%3D%3D&trackingId=S10Fgceq65ZKEtcnuAB0Tg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T01:22:05.321113"
   }
 ]
