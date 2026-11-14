@@ -1,5 +1,59 @@
 [
   {
+    "title": "Machine Learning Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491056975",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T13:12:48.236379"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "WebBoost Solutions by UM",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491069687",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T13:12:48.236277"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491077228",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T13:12:48.236141"
+  },
+  {
+    "title": "Engineer - AI Orchestration (Windows)",
+    "company": "Qualcomm",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4379405201",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T13:12:29.378057"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "TerraTern",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4489860676",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T13:12:29.377782"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "Maharshi Udhyog",
+    "location": "GJ, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=66dad9a1c1356bdd",
+    "source": "Indeed India",
+    "found_at": "2026-11-14T13:11:31.757407"
+  },
+  {
     "title": "Data Scientist",
     "company": "Devryxa",
     "location": "India",
@@ -1744,59 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/data-scientist-at-michelin-4486534750?position=1&pageNum=0&refId=uwFaiK6XG%2BFZxnH2pxyNMw%3D%3D&trackingId=KfLb9W6%2FMuZ8%2FDPTGubllw%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-05T19:40:55.384170"
-  },
-  {
-    "title": "Senior Data Scientist \u2013 AI/ML",
-    "company": "Thermo Fisher Scientific",
-    "location": "Mumbai Metropolitan Region",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-%E2%80%93-ai-ml-at-thermo-fisher-scientific-4476638035?position=8&pageNum=0&refId=BzgwStWC721C%2BYOwRSkAfw%3D%3D&trackingId=0MzmpjGc7xC9fS4O%2FASDRg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:54.408896"
-  },
-  {
-    "title": "Agentic AI Engineer",
-    "company": "HP",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/agentic-ai-engineer-at-hp-4487553991?position=7&pageNum=0&refId=BzgwStWC721C%2BYOwRSkAfw%3D%3D&trackingId=GUGam6zLbXBeSHwlzETxAw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:54.408690"
-  },
-  {
-    "title": "Senior Machine Learning Engineer - Responsible AI",
-    "company": "Atlassian",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-machine-learning-engineer-responsible-ai-at-atlassian-4479553495?position=6&pageNum=0&refId=BzgwStWC721C%2BYOwRSkAfw%3D%3D&trackingId=9bmRmO9tdyOVFB%2B3E%2FySBA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:54.408486"
-  },
-  {
-    "title": "Machine Learning Engineer ( IIT OR NIT OR BITS)",
-    "company": "Recro",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-iit-or-nit-or-bits-at-recro-4486762041?position=3&pageNum=0&refId=BzgwStWC721C%2BYOwRSkAfw%3D%3D&trackingId=5QJxYYCKf8%2BD9KprbDHe9g%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:54.407896"
-  },
-  {
-    "title": "Senior Data Scientist",
-    "company": "Persistent Systems",
-    "location": "Pune City, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-at-persistent-systems-4485814040?position=1&pageNum=0&refId=BzgwStWC721C%2BYOwRSkAfw%3D%3D&trackingId=j%2FaY9i7AbFGTpdaPCYOZzw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:54.407389"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "Syneos Health Commercial Solutions",
-    "location": "Gurugram, Haryana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-syneos-health-commercial-solutions-4479541233?position=7&pageNum=0&refId=Uz4N1eDWjIj1PgDxriifbg%3D%3D&trackingId=n0gJpzBZ2%2FLsDHkpz9sBPw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T10:30:23.480184"
   }
 ]
