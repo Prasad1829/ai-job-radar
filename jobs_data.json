@@ -1,6 +1,42 @@
 [
   {
     "title": "Data Scientist",
+    "company": "Devryxa",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4489872114",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T05:34:16.076832"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491030830",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T05:34:16.076493"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "Vortenza Systems",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4489851992",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T05:33:36.987504"
+  },
+  {
+    "title": "Machine Learning Engineer",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491044294",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T05:33:36.987293"
+  },
+  {
+    "title": "Data Scientist",
     "company": "Talent to Job",
     "location": "India",
     "experience": "Fresher",
@@ -1762,41 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/data-scientist-at-syneos-health-commercial-solutions-4479541233?position=7&pageNum=0&refId=Uz4N1eDWjIj1PgDxriifbg%3D%3D&trackingId=n0gJpzBZ2%2FLsDHkpz9sBPw%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-05T10:30:23.480184"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "SKaaS- Skills as a Service",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-skaas-skills-as-a-service-4487241632?position=5&pageNum=0&refId=Uz4N1eDWjIj1PgDxriifbg%3D%3D&trackingId=eEz15ttMkSCwWDMRUBwjwA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T10:30:23.479810"
-  },
-  {
-    "title": "AI Engineer",
-    "company": "Mobility Global",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-engineer-at-mobility-global-4468922949?position=6&pageNum=0&refId=J62fnq9OtNl53fio%2Fc%2Bddg%3D%3D&trackingId=bijCW3CMWkFwER9bAjC0uQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T10:30:22.542262"
-  },
-  {
-    "title": "AI Solutions Analyst / AI Engineer",
-    "company": "Zamp",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-solutions-analyst-ai-engineer-at-zamp-4426218663?position=5&pageNum=0&refId=J62fnq9OtNl53fio%2Fc%2Bddg%3D%3D&trackingId=cnXagscZI6emicMDIioE4Q%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T10:30:22.542077"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "Michelin",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-michelin-4486534750?position=1&pageNum=0&refId=J62fnq9OtNl53fio%2Fc%2Bddg%3D%3D&trackingId=7rfxBtN31XJrwHr1lh54Lg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T10:30:22.541325"
   }
 ]
