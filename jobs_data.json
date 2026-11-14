@@ -1,6 +1,42 @@
 [
   {
     "title": "Machine Learning Intern",
+    "company": "Devryxa",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491079155",
+    "source": "LinkedIn",
+    "found_at": "2026-11-14T19:49:26.695790"
+  },
+  {
+    "title": "Full-Stack Python Developer (FastAPI + React + Automation) \u2013 GST SaaS Platform",
+    "company": "NYLUN GLOBAL PRIVATE LIMITED",
+    "location": "TS, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=29cbd297a35786bf",
+    "source": "Indeed India",
+    "found_at": "2026-11-14T19:48:01.462572"
+  },
+  {
+    "title": "Full Stack AI Engineering Intern",
+    "company": "Branvidia",
+    "location": "KA, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=486ce0b0558655ca",
+    "source": "Indeed India",
+    "found_at": "2026-11-14T19:47:56.934299"
+  },
+  {
+    "title": "Junior Data Scientist",
+    "company": "Hanumant Technology Pvt. Ltd.",
+    "location": "UP, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=1bf3808cbf384e6a",
+    "source": "Indeed India",
+    "found_at": "2026-11-14T19:47:54.590259"
+  },
+  {
+    "title": "Machine Learning Intern",
     "company": "Dexter's Tech",
     "location": "India",
     "experience": "Fresher",
@@ -1762,41 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/senior-ai-and-machine-learning-engineer-assistant-vice-president-at-citi-4486910733?position=2&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=4wlhrzflAAnBZoz2DhbloA%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-06T01:25:26.453758"
-  },
-  {
-    "title": "Senior Machine Learning Data Scientist - Assistant Vice President",
-    "company": "Citi",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-machine-learning-data-scientist-assistant-vice-president-at-citi-4486927033?position=1&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=xBa3NEbOhDjXVUFgTnBT6Q%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:26.453569"
-  },
-  {
-    "title": "Computer Vision",
-    "company": "Infosys",
-    "location": "Bengaluru East, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/computer-vision-at-infosys-4469452535?position=9&pageNum=0&refId=uwFaiK6XG%2BFZxnH2pxyNMw%3D%3D&trackingId=kfpbt6TdpWMX05A1EakdYQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:55.385763"
-  },
-  {
-    "title": "Junior Data Scientists",
-    "company": "Siemens Healthineers",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/junior-data-scientists-at-siemens-healthineers-4485808661?position=3&pageNum=0&refId=uwFaiK6XG%2BFZxnH2pxyNMw%3D%3D&trackingId=VTEl0S6w5boW8i6K2fGhAA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:55.384564"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "Michelin",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-michelin-4486534750?position=1&pageNum=0&refId=uwFaiK6XG%2BFZxnH2pxyNMw%3D%3D&trackingId=KfLb9W6%2FMuZ8%2FDPTGubllw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-05T19:40:55.384170"
   }
 ]
