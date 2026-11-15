@@ -1,6 +1,15 @@
 [
   {
     "title": "Machine Learning Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491072517",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T00:53:39.315039"
+  },
+  {
+    "title": "Machine Learning Intern",
     "company": "Devryxa",
     "location": "India",
     "experience": "Fresher",
@@ -1789,14 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-at-persistent-systems-4485814040?position=3&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=MFsxw1wOgWYh0I0RIp%2FhhQ%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-06T01:25:26.453888"
-  },
-  {
-    "title": "Senior AI and Machine Learning Engineer - Assistant Vice President",
-    "company": "Citi",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-ai-and-machine-learning-engineer-assistant-vice-president-at-citi-4486910733?position=2&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=4wlhrzflAAnBZoz2DhbloA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:26.453758"
   }
 ]
