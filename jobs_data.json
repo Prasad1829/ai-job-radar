@@ -1,6 +1,24 @@
 [
   {
     "title": "Machine Learning Intern",
+    "company": "Devryxa",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491221207",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T10:31:53.949755"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491211565",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T10:31:53.949705"
+  },
+  {
+    "title": "Machine Learning Intern",
     "company": "Dexter's Tech",
     "location": "India",
     "experience": "Fresher",
@@ -1780,23 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/senior-machine-learning-engineer-responsible-ai-at-atlassian-4479553495?position=7&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=B%2BLhcSGBF8xzhLLye1E%2FyQ%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-06T01:25:26.454336"
-  },
-  {
-    "title": "Machine Learning Engineer ( IIT OR NIT OR BITS)",
-    "company": "Recro",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-iit-or-nit-or-bits-at-recro-4486762041?position=5&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=pE%2FbAVud6zbyDL5lx8dXsg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:26.454116"
-  },
-  {
-    "title": "Senior Data Scientist",
-    "company": "Persistent Systems",
-    "location": "Pune City, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-at-persistent-systems-4485814040?position=3&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=MFsxw1wOgWYh0I0RIp%2FhhQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:26.453888"
   }
 ]
