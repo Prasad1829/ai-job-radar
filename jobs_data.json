@@ -1,5 +1,68 @@
 [
   {
+    "title": "Data Science Intern",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491266001",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T18:39:01.086704"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491256390",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T18:39:01.086488"
+  },
+  {
+    "title": "Artificial Intelligence Engineer/Intern ( VLA )",
+    "company": "Intuitive Research and Development Pvt Ltd (IRDPL)",
+    "location": "Pune City, Maharashtra, India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4489399388",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T18:38:21.410389"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Devryxa",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491256380",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T18:38:21.410206"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491246883",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T18:38:21.410034"
+  },
+  {
+    "title": "Eng, Artificial Intelligence",
+    "company": "KLA",
+    "location": "Chennai, Tamil Nadu, India",
+    "experience": "0 Years",
+    "url": "https://www.linkedin.com/jobs/view/4427334560",
+    "source": "LinkedIn",
+    "found_at": "2026-11-15T18:38:21.409623"
+  },
+  {
+    "title": "Prompt Engineer",
+    "company": "Ayantrix Solutions",
+    "location": "TN, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=55a07bf9d5e21177",
+    "source": "Indeed India",
+    "found_at": "2026-11-15T18:37:26.314955"
+  },
+  {
     "title": "Machine Learning Intern",
     "company": "Devryxa",
     "location": "India",
@@ -1735,68 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/data-scientist-at-smiths-detection-4485823690?position=9&pageNum=0&refId=9zuKwx7%2F92PlNgNQt1Mfmg%3D%3D&trackingId=x3Pt6pjwRgdnz5oXn0NW6w%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-06T01:25:28.274760"
-  },
-  {
-    "title": "Data Science | Entry Level | Fresher Internship (Python, Statistics, Machine Learning Basics)",
-    "company": "Medi Nex Workforce",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-science-entry-level-fresher-internship-python-statistics-machine-learning-basics-at-medi-nex-workforce-4486579018?position=8&pageNum=0&refId=9zuKwx7%2F92PlNgNQt1Mfmg%3D%3D&trackingId=iFBlIx7bSwLeDOjDDg6L5w%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:28.274651"
-  },
-  {
-    "title": "AI Engineer - Remote",
-    "company": "Uplers",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-engineer-remote-at-uplers-4487744828?position=11&pageNum=0&refId=z5yOBDLLjDP%2B0dD%2Fybj3OQ%3D%3D&trackingId=r2GFLxMredyIBxL7ZLF7yg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:27.341556"
-  },
-  {
-    "title": "Computer Vision",
-    "company": "Infosys",
-    "location": "Bengaluru East, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/computer-vision-at-infosys-4469452535?position=6&pageNum=0&refId=z5yOBDLLjDP%2B0dD%2Fybj3OQ%3D%3D&trackingId=kYR%2BeUcYYt5A0Dz4ceBHJw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:27.341188"
-  },
-  {
-    "title": "Junior Data Scientists",
-    "company": "Siemens Healthineers",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/junior-data-scientists-at-siemens-healthineers-4485808661?position=2&pageNum=0&refId=z5yOBDLLjDP%2B0dD%2Fybj3OQ%3D%3D&trackingId=qFXZ5QBQuutnPzKlkUwcYQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:27.340800"
-  },
-  {
-    "title": "AI or ML Engineer",
-    "company": "Optum India",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-or-ml-engineer-at-optum-india-4488061858?position=9&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=NO2y1qXH6ioMXvg2%2FGZ%2BjQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:26.454563"
-  },
-  {
-    "title": "Senior Data Scientist \u2013 AI/ML",
-    "company": "Thermo Fisher Scientific",
-    "location": "Mumbai Metropolitan Region",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-%E2%80%93-ai-ml-at-thermo-fisher-scientific-4476638035?position=8&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=gctS1NeZcqOBHiRP4LQk%2BQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:26.454454"
-  },
-  {
-    "title": "Senior Machine Learning Engineer - Responsible AI",
-    "company": "Atlassian",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-machine-learning-engineer-responsible-ai-at-atlassian-4479553495?position=7&pageNum=0&refId=DT2ZOCKtq7ketCDVIKnSpw%3D%3D&trackingId=B%2BLhcSGBF8xzhLLye1E%2FyQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T01:25:26.454336"
   }
 ]
