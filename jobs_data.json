@@ -1,5 +1,77 @@
 [
   {
+    "title": "AI Engineer Intern",
+    "company": "Plearun",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4491206894",
+    "source": "LinkedIn",
+    "found_at": "2026-11-16T21:48:35.334954"
+  },
+  {
+    "title": "MACHINE LEARNING ENGINEER INTERN",
+    "company": "HighKernel",
+    "location": "Bhopal, Madhya Pradesh, India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4489760356",
+    "source": "LinkedIn",
+    "found_at": "2026-11-16T21:48:35.332310"
+  },
+  {
+    "title": "Data Science Intern (Python, Statistics, Machine Learning)",
+    "company": "MediNex Workforce",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490621862",
+    "source": "LinkedIn",
+    "found_at": "2026-11-16T21:47:58.220390"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490923195",
+    "source": "LinkedIn",
+    "found_at": "2026-11-16T21:47:16.870251"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490134150",
+    "source": "LinkedIn",
+    "found_at": "2026-11-16T21:47:16.869950"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Devryxa",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490907740",
+    "source": "LinkedIn",
+    "found_at": "2026-11-16T21:47:16.869145"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490116851",
+    "source": "LinkedIn",
+    "found_at": "2026-11-16T21:47:16.868855"
+  },
+  {
+    "title": "AI/ML Engineer(GenAI)",
+    "company": "MAERSK",
+    "location": "KA, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=49d8ab4ffdbcf8ba",
+    "source": "Indeed India",
+    "found_at": "2026-11-16T21:46:44.306831"
+  },
+  {
     "title": "Associate Data Scientist",
     "company": "NielsenIQ",
     "location": "Vadodara, Gujarat, India",
@@ -1726,77 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/ai-or-ml-engineer-at-optum-india-4488061858?position=6&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=7fP6f6FWZx5Q2ZFdv8vdKQ%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-06T19:02:55.753493"
-  },
-  {
-    "title": "Principal Machine Learning Engineer (Prisma AIRS) - NetSec",
-    "company": "Palo Alto Networks",
-    "location": "Bengaluru East, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/principal-machine-learning-engineer-prisma-airs-netsec-at-palo-alto-networks-4469760255?position=5&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=Uhlid2cKJirdHeibaqRCTg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753380"
-  },
-  {
-    "title": "Machine Learning Engineer III (Computer Vision)",
-    "company": "ACV Auctions",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-iii-computer-vision-at-acv-auctions-4486961585?position=4&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=yBJSZjaONsAzHldkMofbeg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753267"
-  },
-  {
-    "title": "Lead Machine Learning Engineer (Python, GenAI, MLOps)",
-    "company": "Simeio",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/lead-machine-learning-engineer-python-genai-mlops-at-simeio-4432340214?position=3&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=n1mBci3EegHfbCywcN%2BibQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753149"
-  },
-  {
-    "title": "Senior AI and Machine Learning Engineer - Assistant Vice President",
-    "company": "Citi",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-ai-and-machine-learning-engineer-assistant-vice-president-at-citi-4486910733?position=2&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=YkLHZETC54vsbgGBCODaWg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753014"
-  },
-  {
-    "title": "Senior Machine Learning Data Scientist - Assistant Vice President",
-    "company": "Citi",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-machine-learning-data-scientist-assistant-vice-president-at-citi-4486927033?position=1&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=DUKMGrIeiqw2Tdpf9XGB0A%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.752846"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "Smiths Detection",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-smiths-detection-4485823690?position=7&pageNum=0&refId=wNS7McEMJMtXbRlRnSaKPg%3D%3D&trackingId=AynAr7I8ribPUcv%2Fer8%2BEg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T10:32:25.145828"
-  },
-  {
-    "title": "Computer Vision",
-    "company": "Infosys",
-    "location": "Bengaluru East, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/computer-vision-at-infosys-4469452535?position=7&pageNum=0&refId=ZEhRjuzBeHkFE9yyMwYuiQ%3D%3D&trackingId=XDDEAQ4MaBftzMoiPlyx%2BQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T10:32:24.164566"
-  },
-  {
-    "title": "Junior Data Scientists",
-    "company": "Siemens Healthineers",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/junior-data-scientists-at-siemens-healthineers-4485808661?position=2&pageNum=0&refId=ZEhRjuzBeHkFE9yyMwYuiQ%3D%3D&trackingId=2%2FMaYTg%2BcfRbS5Z4cc2dtA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T10:32:24.163490"
   }
 ]
