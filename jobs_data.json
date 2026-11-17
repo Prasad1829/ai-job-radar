@@ -1,5 +1,59 @@
 [
   {
+    "title": "Machine Learning Intern",
+    "company": "Devryxa",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490989883",
+    "source": "LinkedIn",
+    "found_at": "2026-11-17T07:08:33.499049"
+  },
+  {
+    "title": "Machine Learning Engineer aa",
+    "company": "Jobgether",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490173975",
+    "source": "LinkedIn",
+    "found_at": "2026-11-17T07:08:33.498631"
+  },
+  {
+    "title": "Machine Learning Intern",
+    "company": "Dexter's Tech",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4490172602",
+    "source": "LinkedIn",
+    "found_at": "2026-11-17T07:08:33.498358"
+  },
+  {
+    "title": "Associate ML Engineer",
+    "company": "HuntingCube",
+    "location": "Itanagar, Arunachal Pradesh, India",
+    "experience": "0-3 Years",
+    "url": "https://www.linkedin.com/jobs/view/4490401513",
+    "source": "LinkedIn",
+    "found_at": "2026-11-17T07:08:33.498308"
+  },
+  {
+    "title": "AI/ML Developer cum Trainer",
+    "company": "Nxtgenintelligenceacademy",
+    "location": "MH, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=91f7e9d0f4ab79e5",
+    "source": "Indeed India",
+    "found_at": "2026-11-17T07:07:56.384391"
+  },
+  {
+    "title": "AI/ML Intern",
+    "company": "ES EthicSecur SofTec Private Limited",
+    "location": "TN, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=ade2122eb9a1b93f",
+    "source": "Indeed India",
+    "found_at": "2026-11-17T07:07:56.384148"
+  },
+  {
     "title": "AI Engineer Intern",
     "company": "Plearun",
     "location": "India",
@@ -1744,59 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-iii-computer-vision-at-acv-auctions-4486961585?position=2&pageNum=0&refId=QZpC2fztxgHierh3Rp9k0A%3D%3D&trackingId=RQ3B4wMZJpvtvQXx%2B04bkA%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-07T00:42:02.174600"
-  },
-  {
-    "title": "Lead Machine Learning Engineer (Python, GenAI, MLOps)",
-    "company": "Simeio",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/lead-machine-learning-engineer-python-genai-mlops-at-simeio-4432340214?position=1&pageNum=0&refId=QZpC2fztxgHierh3Rp9k0A%3D%3D&trackingId=VtVjJ7HMRdJqKeftUsXhSA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T00:42:02.174396"
-  },
-  {
-    "title": "Data Science | Entry Level | Fresher Internship (Python, Statistics, Machine Learning Basics)",
-    "company": "Medi Nex Workforce",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-science-entry-level-fresher-internship-python-statistics-machine-learning-basics-at-medi-nex-workforce-4486993119?position=8&pageNum=0&refId=eehje%2B%2FkXbRXrwe1AKRQmA%3D%3D&trackingId=N8bpflLZT4GdzkyMfTi%2FhQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:57.658258"
-  },
-  {
-    "title": "Principal Data Scientist",
-    "company": "HP",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/principal-data-scientist-at-hp-4488102975?position=9&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=ErF4o0NoWwU%2FdFkKLt84cA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753837"
-  },
-  {
-    "title": "Senior Artificial Intelligence/Machine Learning Engineer",
-    "company": "Ciklum India",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-artificial-intelligence-machine-learning-engineer-at-ciklum-india-4480333928?position=8&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=XX6YL9HfZ4qMgoBEQaYDVg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753717"
-  },
-  {
-    "title": "Senior Data Scientist (GenAI, NLP, Healthcare AI) Gurgaon OR Noida",
-    "company": "Amplify Health",
-    "location": "Gurugram, Haryana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-genai-nlp-healthcare-ai-gurgaon-or-noida-at-amplify-health-4486965307?position=7&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=gHI6L8SRGDwaHWEkPefGhw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753603"
-  },
-  {
-    "title": "AI or ML Engineer",
-    "company": "Optum India",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-or-ml-engineer-at-optum-india-4488061858?position=6&pageNum=0&refId=Nl7Y9Q%2Bfp4PkpWi4FQGSbQ%3D%3D&trackingId=7fP6f6FWZx5Q2ZFdv8vdKQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-06T19:02:55.753493"
   }
 ]
