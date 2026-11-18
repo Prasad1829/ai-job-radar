@@ -1,5 +1,59 @@
 [
   {
+    "title": "Machine Learning Intern",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4492093100",
+    "source": "LinkedIn",
+    "found_at": "2026-11-18T20:11:10.483175"
+  },
+  {
+    "title": "Data Engineer",
+    "company": "HP",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-2 Years",
+    "url": "https://www.linkedin.com/jobs/view/4492077009",
+    "source": "LinkedIn",
+    "found_at": "2026-11-18T20:11:10.482896"
+  },
+  {
+    "title": "AI NCG",
+    "company": "Saama",
+    "location": "Pune/Pimpri-Chinchwad Area",
+    "experience": "0-2 Years",
+    "url": "https://www.linkedin.com/jobs/view/4491308511",
+    "source": "LinkedIn",
+    "found_at": "2026-11-18T20:11:10.482472"
+  },
+  {
+    "title": "BIM AI Engineer Civil / Structural Engineering (Freshers Welcome)",
+    "company": "J&F India",
+    "location": "Noida, Chennai, India",
+    "experience": "Fresher",
+    "url": "https://www.naukri.com/job-listings-bim-ai-engineer-civil-structural-engineering-freshers-welcome-j-f-india-noida-chennai-0-to-4-years-191126000270",
+    "source": "Naukri",
+    "found_at": "2026-11-18T20:10:39.359562"
+  },
+  {
+    "title": "AI NCG",
+    "company": "Saama Technologies",
+    "location": "MH, India",
+    "experience": "0-2 Years",
+    "url": "https://in.indeed.com/viewjob?jk=c789b7fa97609f61",
+    "source": "Indeed India",
+    "found_at": "2026-11-18T20:10:27.773066"
+  },
+  {
+    "title": "AI Engineer \u2013 Computer Vision & Deep Learning",
+    "company": "Web3things Technology",
+    "location": "MH, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=7a5bf85995e82461",
+    "source": "Indeed India",
+    "found_at": "2026-11-18T20:10:27.772450"
+  },
+  {
     "title": "AI Engineering Intern",
     "company": "Lumia Security",
     "location": "India",
@@ -1744,59 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/lead-data-scientist-at-gartner-4470037417?position=6&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=YdZFFeEqRiRunXC9BD2qzw%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-07T21:36:22.491841"
-  },
-  {
-    "title": "Staff Data Scientist, Machine Learning - India",
-    "company": "JumpCloud",
-    "location": "Bengaluru East, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/staff-data-scientist-machine-learning-india-at-jumpcloud-4460443147?position=5&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=cQyx%2BnTc%2FvDCwTobYvanNw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:22.491735"
-  },
-  {
-    "title": "Staff Software Engineer, Machine Learning",
-    "company": "LinkedIn",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/staff-software-engineer-machine-learning-at-linkedin-4453661653?position=4&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=dmkPR8gfyUUEYiat9FqC2w%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:22.491622"
-  },
-  {
-    "title": "Lead Machine Learning Engineer",
-    "company": "Bain & Company",
-    "location": "Mumbai, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/lead-machine-learning-engineer-at-bain-company-4484933468?position=3&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=WsfKo4ESozQwWdeam%2B3Mtg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:22.491497"
-  },
-  {
-    "title": "Specialist, Data Engineer (Python, SQL, Databricks, Pyspark, Basics of AI/LLM)",
-    "company": "Gartner",
-    "location": "Gurgaon, Haryana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/specialist-data-engineer-python-sql-databricks-pyspark-basics-of-ai-llm-at-gartner-4487347997?position=5&pageNum=0&refId=%2F8afYy9GCCK2Uw%2BxLt1tmA%3D%3D&trackingId=MDVEQ7mC7AOKY2osisUODg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T17:36:10.054218"
-  },
-  {
-    "title": "Machine Learning Engineer",
-    "company": "Data Eminence",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-engineer-at-data-eminence-4487387259?position=1&pageNum=0&refId=%2F8afYy9GCCK2Uw%2BxLt1tmA%3D%3D&trackingId=TGAOeCnL5LfviYe897dE%2BQ%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T17:36:10.053298"
-  },
-  {
-    "title": "Specialist, Data Engineer (Python, SQL, Databricks, Pyspark, Basics of AI/LLM)",
-    "company": "Gartner",
-    "location": "Gurgaon, Haryana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/specialist-data-engineer-python-sql-databricks-pyspark-basics-of-ai-llm-at-gartner-4487347997?position=8&pageNum=0&refId=MQO3zLBB4lvPjOZMntCZdA%3D%3D&trackingId=ZR3bTMDkawD9Z3K5mQgLDg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T09:44:39.226825"
   }
 ]
