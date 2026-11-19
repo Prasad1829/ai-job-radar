@@ -1,5 +1,32 @@
 [
   {
+    "title": "Data Scientist",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4492095052",
+    "source": "LinkedIn",
+    "found_at": "2026-11-19T02:22:54.438369"
+  },
+  {
+    "title": "Associate ML Engineer",
+    "company": "Wadhwani AI Global",
+    "location": "Delhi, Delhi, India",
+    "experience": "0-3 Years",
+    "url": "https://www.linkedin.com/jobs/view/4491851805",
+    "source": "LinkedIn",
+    "found_at": "2026-11-19T02:22:54.437822"
+  },
+  {
+    "title": "AI Engineer \u2013 Computer Vision & Deep Learning",
+    "company": "Web3things Technology",
+    "location": "TN, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=d6b26018c5e10f72",
+    "source": "Indeed India",
+    "found_at": "2026-11-19T02:22:22.958904"
+  },
+  {
     "title": "Machine Learning Intern",
     "company": "Talent to Job",
     "location": "India",
@@ -1771,32 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/computer-vision-ai-ml-engineer-at-skild-ai-4434351862?position=9&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=oKhZR%2FvFOiEt%2BiDKZqsg0Q%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-07T21:36:22.492183"
-  },
-  {
-    "title": "Lead ML & AI Engineer",
-    "company": "HERE Technologies",
-    "location": "Mumbai Metropolitan Region",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/lead-ml-ai-engineer-at-here-technologies-4462844287?position=8&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=6Y2eJmY8mopoOzqEImS3NA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:22.492074"
-  },
-  {
-    "title": "Senior Data Scientist",
-    "company": "SEI",
-    "location": "Greater Hyderabad Area",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-data-scientist-at-sei-4407866688?position=7&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=%2Fr0THXJrSYkDhwyVdDi8%2Fg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:22.491965"
-  },
-  {
-    "title": "Lead Data Scientist",
-    "company": "Gartner",
-    "location": "Gurgaon, Haryana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/lead-data-scientist-at-gartner-4470037417?position=6&pageNum=0&refId=KQdiVvmKFf9suYwZGWzfvw%3D%3D&trackingId=YdZFFeEqRiRunXC9BD2qzw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:22.491841"
   }
 ]
