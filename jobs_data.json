@@ -1,5 +1,23 @@
 [
   {
+    "title": "Machine Learning Intern",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4492426635",
+    "source": "LinkedIn",
+    "found_at": "2026-11-19T20:13:00.950398"
+  },
+  {
+    "title": "ML Engineer / Data Scientist - Intern(2027 Passouts Only)",
+    "company": "Infor",
+    "location": "Hyderabad, India",
+    "experience": "Fresher",
+    "url": "https://www.naukri.com/job-listings-ml-engineer-data-scientist-intern-2027-passouts-only-infor-hyderabad-2-to-7-years-191126503579",
+    "source": "Naukri",
+    "found_at": "2026-11-19T20:12:44.771609"
+  },
+  {
     "title": "AI Digital Marketing Intern",
     "company": "PG Softwares",
     "location": "TN, India",
@@ -1780,23 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/data-scientist-at-nielseniq-4324950702?position=1&pageNum=0&refId=PUoXIXfJTsA1FkZCY9ax4g%3D%3D&trackingId=hTgb6c4V6CitHvTKVDHAzg%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-07T21:36:24.238820"
-  },
-  {
-    "title": "Specialist, Data Engineer (Python, SQL, Databricks, Pyspark, Basics of AI/LLM)",
-    "company": "Gartner",
-    "location": "Gurgaon, Haryana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/specialist-data-engineer-python-sql-databricks-pyspark-basics-of-ai-llm-at-gartner-4487347997?position=6&pageNum=0&refId=JRQojqfEZhlXXobgFPkxtQ%3D%3D&trackingId=huB4J3FkYnfhu3XyYZLFzg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:23.350555"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "Aditya Birla Capital",
-    "location": "Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/data-scientist-at-aditya-birla-capital-4463357550?position=4&pageNum=0&refId=JRQojqfEZhlXXobgFPkxtQ%3D%3D&trackingId=q%2F6i2wx4MNIB6Rwu%2BkSELA%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-07T21:36:23.350358"
   }
 ]
