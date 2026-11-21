@@ -1,5 +1,41 @@
 [
   {
+    "title": "Data Science Intern (Python, Statistics, Machine Learning)",
+    "company": "MediNex Workforce",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4492893406",
+    "source": "LinkedIn",
+    "found_at": "2026-11-21T18:52:34.815597"
+  },
+  {
+    "title": "Data Science Intern",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4493277217",
+    "source": "LinkedIn",
+    "found_at": "2026-11-21T18:52:34.815194"
+  },
+  {
+    "title": "Junior AI Engineer",
+    "company": "Mallow Technologies Private Limited",
+    "location": "TN, India",
+    "experience": "0-1 Years",
+    "url": "https://in.indeed.com/viewjob?jk=65ede336ee864fc7",
+    "source": "Indeed India",
+    "found_at": "2026-11-21T18:51:27.897248"
+  },
+  {
+    "title": "AI Engineering",
+    "company": "placementindia",
+    "location": "MP, India",
+    "experience": "0-1 Years",
+    "url": "https://in.indeed.com/viewjob?jk=4bde51e9d6c0c1cb",
+    "source": "Indeed India",
+    "found_at": "2026-11-21T18:51:27.895362"
+  },
+  {
     "title": "Machine Learning Intern",
     "company": "Talent to Job",
     "location": "India",
@@ -1762,41 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/artificial-intelligence-intern-at-skillzen-loop-4487104289?position=7&pageNum=0&refId=MpiGjz%2BwQ75Rh5A%2F8s83Sw%3D%3D&trackingId=j3Pi0A2A71oTZRefUyrVhw%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-08T19:24:43.328328"
-  },
-  {
-    "title": "Modeling & Simulation Machine Learning Engineer",
-    "company": "Procter & Gamble",
-    "location": "Hyderabad, Telangana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/modeling-simulation-machine-learning-engineer-at-procter-gamble-4486669753?position=4&pageNum=0&refId=MpiGjz%2BwQ75Rh5A%2F8s83Sw%3D%3D&trackingId=QmRSInp7gFccgF6MO3zIpg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-08T19:24:43.327910"
-  },
-  {
-    "title": "AI/ML Engineer",
-    "company": "Amtrino Technologies",
-    "location": "Hyderabad, Telangana, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-ml-engineer-at-amtrino-technologies-4487631379?position=2&pageNum=0&refId=MpiGjz%2BwQ75Rh5A%2F8s83Sw%3D%3D&trackingId=Ovqto0FLhdQUDF0QRPOvmg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-08T19:24:43.327639"
-  },
-  {
-    "title": "Senior AI/ML Engineer",
-    "company": "Ciklum India",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/senior-ai-ml-engineer-at-ciklum-india-4427558294?position=10&pageNum=0&refId=JLc50YbOUzLotHqkZa3gjw%3D%3D&trackingId=3lq7KjlBWtyHjFjPypYx%2Fg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-08T19:24:42.459412"
-  },
-  {
-    "title": "Artificial Intelligence Engineer",
-    "company": "FastSwitch - Great Lakes Pvt Ltd.",
-    "location": "Chennai, Tamil Nadu, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/artificial-intelligence-engineer-at-fastswitch-great-lakes-pvt-ltd-4488790815?position=9&pageNum=0&refId=JLc50YbOUzLotHqkZa3gjw%3D%3D&trackingId=TPb2CpGoh%2FTfRcK3XqjrDg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-08T19:24:42.459276"
   }
 ]
