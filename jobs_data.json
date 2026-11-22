@@ -1,5 +1,23 @@
 [
   {
+    "title": "Machine Learning Engineer",
+    "company": "SAP",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4481316487",
+    "source": "LinkedIn",
+    "found_at": "2026-11-22T01:02:55.877913"
+  },
+  {
+    "title": "AI/ML Engineer",
+    "company": "Data Eminence",
+    "location": "India",
+    "experience": "0-2 Years",
+    "url": "https://www.linkedin.com/jobs/view/4492860862",
+    "source": "LinkedIn",
+    "found_at": "2026-11-22T01:02:55.876588"
+  },
+  {
     "title": "Data Science Intern (Python, Statistics, Machine Learning)",
     "company": "MediNex Workforce",
     "location": "India",
@@ -1780,23 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/machine-learning-intern-python-scikit-learn-model-training-feature-engineering-at-skillzen-loop-4486691991?position=9&pageNum=0&refId=MpiGjz%2BwQ75Rh5A%2F8s83Sw%3D%3D&trackingId=U%2FN3BbT6xHCrRqiIhBNM6Q%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-08T19:24:43.328593"
-  },
-  {
-    "title": "Machine Learning Intern",
-    "company": "ThinkNovaa",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/machine-learning-intern-at-thinknovaa-4487643808?position=8&pageNum=0&refId=MpiGjz%2BwQ75Rh5A%2F8s83Sw%3D%3D&trackingId=IucAaWf0nKWsXW1nSz8GQw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-08T19:24:43.328460"
-  },
-  {
-    "title": "Artificial Intelligence Intern",
-    "company": "Skillzen Loop",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/artificial-intelligence-intern-at-skillzen-loop-4487104289?position=7&pageNum=0&refId=MpiGjz%2BwQ75Rh5A%2F8s83Sw%3D%3D&trackingId=j3Pi0A2A71oTZRefUyrVhw%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-08T19:24:43.328328"
   }
 ]
