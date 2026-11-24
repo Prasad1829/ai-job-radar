@@ -1,5 +1,32 @@
 [
   {
+    "title": "Machine Learning Intern",
+    "company": "Talent to Job",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4493975645",
+    "source": "LinkedIn",
+    "found_at": "2026-11-24T09:00:31.000363"
+  },
+  {
+    "title": "Business Development Executive \u2013 Student Admissions & Sales",
+    "company": "Singularis Software Technologies",
+    "location": "KL, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=271accf30396d4c9",
+    "source": "Indeed India",
+    "found_at": "2026-11-24T08:59:50.561860"
+  },
+  {
+    "title": "Data Science & Artificial Intelligence Training",
+    "company": "RK Digital",
+    "location": "PB, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=b8826f682a25d3b0",
+    "source": "Indeed India",
+    "found_at": "2026-11-24T08:59:48.334393"
+  },
+  {
     "title": "Python Developer",
     "company": "Data Eminence",
     "location": "India",
@@ -1771,32 +1798,5 @@
     "url": "https://in.linkedin.com/jobs/view/ai-engineer-apprentice-at-crowe-capabilities-center-%E2%80%93-india-4489113545?position=3&pageNum=0&refId=IWzuUQbAYehGC%2B5gtVviBQ%3D%3D&trackingId=m%2BVO2OonNbXS3v9DSIcWZw%3D%3D",
     "source": "LinkedIn",
     "found_at": "2026-11-09T22:03:55.582793"
-  },
-  {
-    "title": "Applied GenAI Engineer \u2013 RAG & LLM Applications",
-    "company": "WhiteCrow Research",
-    "location": "Mumbai Metropolitan Region",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/applied-genai-engineer-%E2%80%93-rag-llm-applications-at-whitecrow-research-4488864011?position=1&pageNum=0&refId=IWzuUQbAYehGC%2B5gtVviBQ%3D%3D&trackingId=AA8kjlqiNuX6Xc5Mc5Ms2w%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-09T22:03:55.582492"
-  },
-  {
-    "title": "ML Engineer (Model Distillation/Knowledge Distillation)",
-    "company": "HCLTech",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ml-engineer-model-distillation-knowledge-distillation-at-hcltech-4487151282?position=9&pageNum=0&refId=RSltc%2BYwfeevywKtRCWZgw%3D%3D&trackingId=OeE20ab4ZiMDurp1CPkbhg%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-09T22:03:54.684575"
-  },
-  {
-    "title": "AI/ML Engineer",
-    "company": "Persistent Systems",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "0-2 Years",
-    "url": "https://in.linkedin.com/jobs/view/ai-ml-engineer-at-persistent-systems-4487697455?position=8&pageNum=0&refId=RSltc%2BYwfeevywKtRCWZgw%3D%3D&trackingId=%2BRJW2%2FYUaar9hydzIVxh2A%3D%3D",
-    "source": "LinkedIn",
-    "found_at": "2026-11-09T22:03:54.684439"
   }
 ]
