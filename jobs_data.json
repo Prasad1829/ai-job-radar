@@ -1,5 +1,50 @@
 [
   {
+    "title": "Artificial Intelligence Engineer",
+    "company": "Lamipak",
+    "location": "New Delhi, Delhi, India",
+    "experience": "0-3 Years",
+    "url": "https://www.linkedin.com/jobs/view/4489556214",
+    "source": "LinkedIn",
+    "found_at": "2026-11-26T12:02:36.574400"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "IQVIA",
+    "location": "Kochi, Kerala, India",
+    "experience": "0-2 Years",
+    "url": "https://www.linkedin.com/jobs/view/4495025162",
+    "source": "LinkedIn",
+    "found_at": "2026-11-26T12:02:36.574279"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "Havet AI Pvt. Ltd.",
+    "location": "MH, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=371a680a9b88e1a6",
+    "source": "Indeed India",
+    "found_at": "2026-11-26T12:01:49.504116"
+  },
+  {
+    "title": "Data Science Developer Intern",
+    "company": "Sysbreeze Technologies",
+    "location": "KL, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=7567902ed8b74818",
+    "source": "Indeed India",
+    "found_at": "2026-11-26T12:01:47.021579"
+  },
+  {
+    "title": "Data Scientist Intern",
+    "company": "Wahy Lab Solutions",
+    "location": "KL, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=c6d0d5903c7507ea",
+    "source": "Indeed India",
+    "found_at": "2026-11-26T12:01:47.021486"
+  },
+  {
     "title": "Machine Learning",
     "company": "JobSPhere",
     "location": "India",
@@ -1753,50 +1798,5 @@
     "url": "https://in.indeed.com/viewjob?jk=65d3ef65792bb799",
     "source": "Indeed India",
     "found_at": "2026-11-10T16:52:20.869401"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "Sri Gajanan E-slates Private Limited",
-    "location": "Remote, India",
-    "experience": "Fresher",
-    "url": "https://in.indeed.com/viewjob?jk=bd76e074e49232d5",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T16:52:18.570753"
-  },
-  {
-    "title": "Data Scientist",
-    "company": "ekalasaala",
-    "location": "Remote, India",
-    "experience": "Fresher",
-    "url": "https://in.indeed.com/viewjob?jk=38893845175000e6",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T16:52:18.570382"
-  },
-  {
-    "title": "Machine Learning Intern (Python, Scikit-learn, Model Training, Feature Engineering)",
-    "company": "Skillzen Loop",
-    "location": "India",
-    "experience": "Fresher",
-    "url": "https://www.linkedin.com/jobs/view/4486691991",
-    "source": "LinkedIn",
-    "found_at": "2026-11-10T11:28:56.245782"
-  },
-  {
-    "title": "Junior AI/ML Engineering",
-    "company": "Daice Labs",
-    "location": "India",
-    "experience": "Fresher",
-    "url": "https://www.linkedin.com/jobs/view/4487658342",
-    "source": "LinkedIn",
-    "found_at": "2026-11-10T11:28:56.245678"
-  },
-  {
-    "title": "Artificial Intelligence Intern",
-    "company": "NexStack Innovation Pvt Ltd",
-    "location": "India",
-    "experience": "Fresher",
-    "url": "https://www.linkedin.com/jobs/view/4487442174",
-    "source": "LinkedIn",
-    "found_at": "2026-11-10T11:28:56.244997"
   }
 ]
