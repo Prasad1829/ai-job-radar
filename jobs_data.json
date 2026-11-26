@@ -1,5 +1,50 @@
 [
   {
+    "title": "Machine Learning",
+    "company": "JobSPhere",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4495525691",
+    "source": "LinkedIn",
+    "found_at": "2026-11-26T23:34:09.685509"
+  },
+  {
+    "title": "AI Engineer \u2013 P&B",
+    "company": "WSP in India",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-3 Years",
+    "url": "https://www.linkedin.com/jobs/view/4495027784",
+    "source": "LinkedIn",
+    "found_at": "2026-11-26T23:34:09.684934"
+  },
+  {
+    "title": "AI Engineer \u2013 Advisory",
+    "company": "WSP in India",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "0-3 Years",
+    "url": "https://www.linkedin.com/jobs/view/4493840295",
+    "source": "LinkedIn",
+    "found_at": "2026-11-26T23:34:09.684324"
+  },
+  {
+    "title": "TC-CS-CAOE-AI Data scientist",
+    "company": "EY",
+    "location": "KA, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=8e183b3fe036cda4",
+    "source": "Indeed India",
+    "found_at": "2026-11-26T23:33:36.874850"
+  },
+  {
+    "title": "Ai Trainer / Ai instructor",
+    "company": "Ainex tech lab & innovations Pvt ltd",
+    "location": "CT, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=16d656f7aa53bb3d",
+    "source": "Indeed India",
+    "found_at": "2026-11-26T23:33:30.244037"
+  },
+  {
     "title": "Artificial Intelligence Engineer",
     "company": "Lamipak",
     "location": "New Delhi, Delhi, India",
@@ -1753,50 +1798,5 @@
     "url": "https://in.indeed.com/viewjob?jk=be4e2fc434692c41",
     "source": "Indeed India",
     "found_at": "2026-11-10T22:58:11.347448"
-  },
-  {
-    "title": "FBS Data Engineer",
-    "company": "Capgemini",
-    "location": "MH, India",
-    "experience": "Fresher",
-    "url": "https://in.indeed.com/viewjob?jk=3790c82ac61ff0ea",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T16:52:27.648373"
-  },
-  {
-    "title": "SEO Executive (SEO, AEO & GEO)",
-    "company": "3wheels.ai",
-    "location": "UP, India",
-    "experience": "0-2 Years",
-    "url": "https://in.indeed.com/viewjob?jk=9a2c7f1360c557a6",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T16:52:20.869638"
-  },
-  {
-    "title": "Robotics Intern",
-    "company": "EVOLVE ROBOT LAB",
-    "location": "TN, India",
-    "experience": "0-1 Years",
-    "url": "https://in.indeed.com/viewjob?jk=be6b9109c616c12b",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T16:52:20.869571"
-  },
-  {
-    "title": "GEN AI INTERNSHIP",
-    "company": "EVOLVE ROBOT LAB",
-    "location": "TN, India",
-    "experience": "0-1 Years",
-    "url": "https://in.indeed.com/viewjob?jk=513d320dee09bdee",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T16:52:20.869475"
-  },
-  {
-    "title": "SEO Executive (SEO, AEO & GEO)",
-    "company": "3Wheels AI Private Limited",
-    "location": "UP, India",
-    "experience": "0-2 Years",
-    "url": "https://in.indeed.com/viewjob?jk=65d3ef65792bb799",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T16:52:20.869401"
   }
 ]
