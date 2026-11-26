@@ -1,5 +1,14 @@
 [
   {
+    "title": "Machine Learning",
+    "company": "JobSPhere",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4494675447",
+    "source": "LinkedIn",
+    "found_at": "2026-11-26T01:42:02.955122"
+  },
+  {
     "title": "Data Science Intern",
     "company": "JobSPhere",
     "location": "India",
@@ -1789,14 +1798,5 @@
     "url": "https://www.linkedin.com/jobs/view/4487442174",
     "source": "LinkedIn",
     "found_at": "2026-11-10T11:28:56.244997"
-  },
-  {
-    "title": "Computer Vision Developer-1",
-    "company": "Zebra Technologies",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "Fresher",
-    "url": "https://www.linkedin.com/jobs/view/4487471247",
-    "source": "LinkedIn",
-    "found_at": "2026-11-10T11:28:56.244853"
   }
 ]
