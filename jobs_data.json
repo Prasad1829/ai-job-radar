@@ -4,6 +4,42 @@
     "company": "JobSPhere",
     "location": "India",
     "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4495561998",
+    "source": "LinkedIn",
+    "found_at": "2026-11-27T07:25:22.749709"
+  },
+  {
+    "title": "Generative AI Engineer - Freshers 2026/27 (Computer Science or AI Only)",
+    "company": "Digitals AI",
+    "location": "Hyderabad, Telangana, India",
+    "experience": "0-3 Years",
+    "url": "https://www.linkedin.com/jobs/view/4495572401",
+    "source": "LinkedIn",
+    "found_at": "2026-11-27T07:25:22.749454"
+  },
+  {
+    "title": "AI/ML Engineer \u2013 Medical Imaging & Healthcare Technology",
+    "company": "ONE Simulation",
+    "location": "Noida, Uttar Pradesh, India",
+    "experience": "0-2 Years",
+    "url": "https://www.linkedin.com/jobs/view/4495070587",
+    "source": "LinkedIn",
+    "found_at": "2026-11-27T07:25:22.749289"
+  },
+  {
+    "title": "Quantum AI \u2013 Equity Only (Founding Team Member)",
+    "company": "Allkenso",
+    "location": "Remote, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=edb522edffaa9f58",
+    "source": "Indeed India",
+    "found_at": "2026-11-27T07:24:42.968310"
+  },
+  {
+    "title": "Machine Learning",
+    "company": "JobSPhere",
+    "location": "India",
+    "experience": "Fresher",
     "url": "https://www.linkedin.com/jobs/view/4495525691",
     "source": "LinkedIn",
     "found_at": "2026-11-26T23:34:09.685509"
@@ -1762,41 +1798,5 @@
     "url": "https://www.linkedin.com/jobs/view/4489072419",
     "source": "LinkedIn",
     "found_at": "2026-11-12T06:24:05.162299"
-  },
-  {
-    "title": "Machine Learning Intern (Python, Scikit-learn, Model Training, Feature Engineering)",
-    "company": "Skillzen Loop",
-    "location": "India",
-    "experience": "Fresher",
-    "url": "https://www.linkedin.com/jobs/view/4488253138",
-    "source": "LinkedIn",
-    "found_at": "2026-11-11T21:48:48.264609"
-  },
-  {
-    "title": "ROBOTICS TRAINER",
-    "company": "Jrnex Technologies Pvt Ltd",
-    "location": "TN, India",
-    "experience": "Fresher",
-    "url": "https://in.indeed.com/viewjob?jk=c1705dcceabd3ac3",
-    "source": "Indeed India",
-    "found_at": "2026-11-11T21:47:59.619228"
-  },
-  {
-    "title": "Associate Data Scientist \u2013 Modeling, Analytics & Pipelines",
-    "company": "Aera Technology",
-    "location": "Pune Division, Maharashtra, India",
-    "experience": "Fresher",
-    "url": "https://www.linkedin.com/jobs/view/4488692176",
-    "source": "LinkedIn",
-    "found_at": "2026-11-11T13:48:33.169173"
-  },
-  {
-    "title": "SEO Executive (SEO, AEO & GEO)",
-    "company": "3wheels.ai",
-    "location": "UP, India",
-    "experience": "0-2 Years",
-    "url": "https://in.indeed.com/viewjob?jk=be4e2fc434692c41",
-    "source": "Indeed India",
-    "found_at": "2026-11-10T22:58:11.347448"
   }
 ]
