@@ -1,5 +1,41 @@
 [
   {
+    "title": "Junior AI Engineer",
+    "company": "Teleradiology Solutions",
+    "location": "Bengaluru, Karnataka, India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4493898127",
+    "source": "LinkedIn",
+    "found_at": "2026-11-27T18:46:51.744305"
+  },
+  {
+    "title": "Data Scientist",
+    "company": "JobSPhere",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4495330372",
+    "source": "LinkedIn",
+    "found_at": "2026-11-27T18:46:34.887639"
+  },
+  {
+    "title": "AI Engineer",
+    "company": "Plansom",
+    "location": "India",
+    "experience": "0-3 Years",
+    "url": "https://www.linkedin.com/jobs/view/4493888432",
+    "source": "LinkedIn",
+    "found_at": "2026-11-27T18:46:06.068833"
+  },
+  {
+    "title": "Trainer- Artificial Intelligence & Machine Learning",
+    "company": "Nettech Infovision",
+    "location": "DL, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=f4e7040b39ebc9a2",
+    "source": "Indeed India",
+    "found_at": "2026-11-27T18:45:20.316255"
+  },
+  {
     "title": "Machine Learning",
     "company": "JobSPhere",
     "location": "India",
@@ -1762,41 +1798,5 @@
     "url": "https://in.indeed.com/viewjob?jk=08b97b6387dc4ee3",
     "source": "Indeed India",
     "found_at": "2026-11-12T17:26:16.359603"
-  },
-  {
-    "title": "Machine Learning Mentor",
-    "company": "AGS Academys",
-    "location": "Remote, India",
-    "experience": "Fresher",
-    "url": "https://in.indeed.com/viewjob?jk=4e969467ab0c5134",
-    "source": "Indeed India",
-    "found_at": "2026-11-12T17:26:16.359318"
-  },
-  {
-    "title": "Machine Learning QA Engineer",
-    "company": "Matters.AI",
-    "location": "Bengaluru, Karnataka, India",
-    "experience": "0-2 Years",
-    "url": "https://www.linkedin.com/jobs/view/4488284549",
-    "source": "LinkedIn",
-    "found_at": "2026-11-12T06:24:05.162565"
-  },
-  {
-    "title": "Artificial Intelligence Engineer",
-    "company": "viamagus",
-    "location": "India",
-    "experience": "Fresher",
-    "url": "https://www.linkedin.com/jobs/view/4490095553",
-    "source": "LinkedIn",
-    "found_at": "2026-11-12T06:24:05.162428"
-  },
-  {
-    "title": "AI/ML Engineer",
-    "company": "Data Eminence",
-    "location": "India",
-    "experience": "0-2 Years",
-    "url": "https://www.linkedin.com/jobs/view/4489072419",
-    "source": "LinkedIn",
-    "found_at": "2026-11-12T06:24:05.162299"
   }
 ]
