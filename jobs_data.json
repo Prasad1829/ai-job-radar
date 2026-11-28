@@ -1,5 +1,23 @@
 [
   {
+    "title": "Machine Learning",
+    "company": "TalentConnect",
+    "location": "India",
+    "experience": "Fresher",
+    "url": "https://www.linkedin.com/jobs/view/4496016831",
+    "source": "LinkedIn",
+    "found_at": "2026-11-28T15:15:31.774975"
+  },
+  {
+    "title": "E-Commerce Intern",
+    "company": "Digital Dreams",
+    "location": "DL, India",
+    "experience": "Fresher",
+    "url": "https://in.indeed.com/viewjob?jk=0b19c21370a6a0d8",
+    "source": "Indeed India",
+    "found_at": "2026-11-28T15:15:01.488357"
+  },
+  {
     "title": "AI Engineer Intern",
     "company": "Archimidx IT Solutions Pvt Ltd.",
     "location": "TN, India",
@@ -1780,23 +1798,5 @@
     "url": "https://www.linkedin.com/jobs/view/4489272235",
     "source": "LinkedIn",
     "found_at": "2026-11-12T17:27:01.357831"
-  },
-  {
-    "title": "ML Engineer",
-    "company": "App Innovation Technologies",
-    "location": "TN, India",
-    "experience": "Fresher",
-    "url": "https://in.indeed.com/viewjob?jk=3b954430d4016425",
-    "source": "Indeed India",
-    "found_at": "2026-11-12T17:26:16.359835"
-  },
-  {
-    "title": "Junior Core ML Engineer",
-    "company": "Modelslab",
-    "location": "GJ, India",
-    "experience": "0-1 Years",
-    "url": "https://in.indeed.com/viewjob?jk=7cc837f31ca9dfb8",
-    "source": "Indeed India",
-    "found_at": "2026-11-12T17:26:16.359696"
   }
 ]
